@@ -148,7 +148,7 @@ a {
 }
 
 .title__desc {
-    font-size: 16px;
+    font-size: var(--font-size-small);
     line-height: var(--line-height-medium);
 }
 
@@ -158,6 +158,7 @@ a {
 
 .heading {
     padding-top: 68px;
+    color: var(--silver-color);
     font-weight: var(--font-weight-mediumbold);
     font-size: var(--font-size-xxx-large);
 }
@@ -168,7 +169,14 @@ a {
     line-height: 30px;
 }
 
-.pricing__options {
+.heading--sm {
+    padding-top: 22px;
+    font-size: var(--font-size-small);
+    line-height: 24px;
+    font-weight: 400;
+}
+
+.card__view {
     padding-top: 76px;
     width: 100%;
     display: flex;
@@ -193,6 +201,14 @@ a {
 
 .card--recommend {
     box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card--statistics {
+    height: 100%;
+    box-shadow: none;
+    background: transparent;
+    border-radius: 0px;
+    justify-content: flex-start;
 }
 
 .card__price {
@@ -258,7 +274,7 @@ a {
     padding-top: 17px;
     padding-bottom: 50px;
     cursor: pointer;
-    font-size: 16px;
+    font-size: var(--font-size-small);
     line-height: 20px;
     letter-spacing: 1px;
 }
@@ -267,13 +283,18 @@ a {
     margin-bottom: 36px;
     font-weight: 400px;
     font-weight: 400;
-    font-size: 16px;
+    font-size: var(--font-size-small);
     line-height: 20px;
 }
 
 .container--features {
     height: 768px;
     justify-content: space-between;
+}
+
+.container--statistics {
+    height: 768px;
+    justify-content: flex-start;
 }
 
 .features__heading {
@@ -305,7 +326,7 @@ a {
 
 .item__text {
     color: #000;
-    font-size: 16px;
+    font-size: var(--font-size-small);
     width: 262px;
 }
 
@@ -317,4 +338,76 @@ a {
 .item__text--details {
     font-weight: 300;
     line-height: 24px;
+}
+
+.progress__bar {
+    --process-diameter: 204px;
+    --process-degree: 230deg;
+
+    margin: auto;
+    width: var(--process-diameter);
+    height: var(--process-diameter);
+    background: conic-gradient(transparent var(--process-degree), var(--secondary-color) 0deg);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 27px;
+}
+
+.progress__bar::before {
+    --process-diameter-before: calc(var(--process-diameter) - 8px);
+
+    content: "";
+    position: absolute;
+    height: var(--process-diameter-before);
+    width: var(--process-diameter-before);
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.progress__bar::after {
+    --border-thickness: 2px;
+    --process-diameter-after: calc(var(--process-diameter) - var(--border-thickness));
+
+    content: "";
+    position: absolute;
+    z-index: -1;
+    background-color: #fff;
+    width: var(--process-diameter-after);
+    height: var(--process-diameter-after);
+    border: var(--border-thickness) solid #DADADA;
+    border-radius: 50%;
+}
+
+.progress__value {
+    position: relative;
+    color: black;
+    font-size: 64px;
+    line-height: 42px;
+    font-weight: var(--font-weight-mediumbold);
+}
+
+.progress__desc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.progress__title {
+    font-size: var(--font-size-medium);
+    color: var(--silver-color);
+    font-weight: var(--font-weight-mediumbold);
+    line-height: 30px;
+}
+
+.progress__text {
+    font-size: var(--font-size-small);
+    color: var(--silver-color);
+    font-weight: 300;
+    line-height: 24px;
+}
+
+.card__view--statistics {
+    gap: 128px;
 }
