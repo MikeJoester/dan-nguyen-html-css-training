@@ -162,7 +162,7 @@ a {
     font-size: var(--font-size-xxx-large);
 }
 
-.options__list {
+.pricing__options {
     padding-top: 76px;
     width: 100%;
     display: flex;
