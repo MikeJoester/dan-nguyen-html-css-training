@@ -162,6 +162,12 @@ a {
     font-size: var(--font-size-xxx-large);
 }
 
+.heading--md {
+    padding-top: 32px;
+    font-size: var(--font-size-medium);
+    line-height: 30px;
+}
+
 .pricing__options {
     padding-top: 76px;
     width: 100%;
@@ -263,4 +269,52 @@ a {
     font-weight: 400;
     font-size: 16px;
     line-height: 20px;
+}
+
+.container--features {
+    height: 768px;
+    justify-content: space-between;
+}
+
+.features__heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.features__details {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 60px;
+    width: 100%;
+}
+
+.features__list {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    width: 50%;
+    padding-left: 170px;
+}
+
+.features__item {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.item__text {
+    color: #000;
+    font-size: 16px;
+    width: 262px;
+}
+
+.item__text--title {
+    font-weight: var(--font-weight-mediumbold);
+    line-height: 30px;
+}
+
+.item__text--details {
+    font-weight: 300;
+    line-height: 24px;
 }
