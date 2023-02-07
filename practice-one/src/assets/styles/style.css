@@ -352,7 +352,6 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 27px;
 }
 
 .progress__bar::before {
@@ -380,12 +379,22 @@ a {
     border-radius: 50%;
 }
 
-.progress__value {
+.value__container {
     position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.progress__value {
     color: black;
     font-size: 64px;
     line-height: 42px;
     font-weight: var(--font-weight-mediumbold);
+}
+
+.progress__value--sm {
+    font-size: 32px;
 }
 
 .progress__desc {
