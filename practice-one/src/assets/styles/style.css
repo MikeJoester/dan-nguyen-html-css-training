@@ -342,7 +342,7 @@ a {
 
 .progress__bar {
     --process-diameter: 204px;
-    --process-degree: 230deg;
+    --process-degree: 90deg;
 
     margin: auto;
     width: var(--process-diameter);
@@ -354,8 +354,17 @@ a {
     justify-content: center;
 }
 
+.progress__bar--second {
+    --process-degree: 230deg;
+}
+
+.progress__bar--third {
+    --process-degree: 15deg;
+}
+
 .progress__bar::before {
-    --process-diameter-before: calc(var(--process-diameter) - 8px);
+    --process-diameter-delta: 15px;
+    --process-diameter-before: calc(var(--process-diameter) - var(--process-diameter-delta));
 
     content: "";
     position: absolute;
