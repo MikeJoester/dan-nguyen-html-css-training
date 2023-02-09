@@ -500,3 +500,66 @@ a {
 .login__link:hover {
     text-decoration: underline;
 }
+
+.container--footer {
+    height: 276px;
+    background-color: #f6f6f6;
+}
+
+.footer__wrapper {
+    padding-top: 42px;
+    width: calc(100% - 150px);
+}
+
+.footer-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.info__list {
+    display: flex;
+    flex-direction: row;
+    gap: 38px;
+}
+
+.contacts {
+    display: flex;
+    color: var(--silver-color);
+    flex-direction: column;
+    font-weight: 400;
+    font-size: 13px;
+    mix-blend-mode: normal;
+    line-height: 24px;
+    opacity: 0.5;
+}
+
+.contacts--subscribe {
+    width: 360px;
+    justify-content: space-between;
+}
+
+.subscribe__form {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.input--subscribe {
+    height: auto;
+    width: auto;
+    background-color: #f6f6f6;
+}
+
+.btn--dark {
+    background-color: var(--silver-color);
+    width: 150px;
+    height: 48px;
+    border-color: transparent;
+    border-radius: 4px;
+}
+
+.btn--dark:hover {
+    background-color: var(--border-color);
+}
