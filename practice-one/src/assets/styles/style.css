@@ -87,7 +87,7 @@ a {
 .nav__item {
     color: var(--primary-color);
     cursor: pointer;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .nav__item:hover {
@@ -99,8 +99,7 @@ a {
     width: 180px;
     height: 48px;
     background-color: transparent;
-    border-color: var(--primary-color);
-    border-width: 2px;
+    border: 2px solid var(--primary-color);
     border-radius: 50px;
     color: var(--primary-color);
     font-weight: 400;
@@ -532,6 +531,7 @@ a {
 .info__item {
     cursor: pointer;
     font-weight: var(--font-weight-mediumbold);
+    transition: 0.2s;
 }
 
 .info__item:hover {
