@@ -1,0 +1,44 @@
+.font-headingTwo {
+  font-weight: var(--font-weight-semibold);
+  font-size: var(--font-size-xxx-large);
+  line-height: var(--line-height-xxx-large);
+}
+
+.font-headingThree {
+  font-weight: var(--font-weight-semibold);
+  font-size: var(--font-size-xx-large);
+  line-height: var(--line-height-xx-large);
+}
+
+.font-text {
+  font-size: var(--font-size-small);
+  line-height: var(--line-height-medium);
+}
+
+.font-medium {
+  font-size: var(--font-size-medium);
+  line-height: var(--line-height-medium);
+}
+
+.font-input {
+  font-weight: var(--font-weight-semibold);
+  font-size: var(--font-size-medium);
+  line-height: var(--line-height-medium);
+}
+
+.font-button {
+  font-weight: var(--font-weight-semibold);
+  font-size: var(--font-size-large);
+  line-height: var(--line-height-large);
+}
+
+.font-x-large {
+  font-weight: var(--font-weight-semibold);
+  font-size: var(--font-size-x-large);
+  line-height: var(--line-height-x-large);
+}
+
+.font-small {
+  font-size: var(--font-size-small);
+  line-height: var(--line-height-small);
+}
