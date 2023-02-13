@@ -1,0 +1,56 @@
+.register {
+    width: 360px;
+    height: 384px;
+    background: 
+        linear-gradient(var(--silver-color), var(--silver-color)),
+        linear-gradient(224.09deg, rgba(195, 195, 195, 0.5) 5.13%, rgba(255, 255, 255, 7e-05) 90.88%);
+    background-blend-mode: soft-light;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.register__text {
+    color: var(--secondary-color);
+    padding-top: 10px;
+    font-size: var(--font-size-md);
+    line-height: var(--line-height-lg);
+    font-weight: var(--font-weight-mediumbold);
+    letter-spacing: 1px;
+}
+
+.register__input {
+    border-radius: 4px;
+    background: var(--input-bg);
+    border: 1px solid var(--input-border);
+    mix-blend-mode: normal;
+    padding-left: 15px;
+    font-size: 14px;
+    width: 256px;
+    height: 36px;
+}
+
+.register__input::placeholder {
+    color: var(--silver-color);
+    font-family: var(--font-secondary);
+    font-size: 14px;
+}
+
+.register__input:hover {
+    background-color: var(--primary-color);
+}
+
+.register__input:focus {
+    background-color: var(--primary-color);
+}
+
+.login__link {
+    color: var(--secondary-color);
+}
+
+.login__link:hover {
+    text-decoration: underline;
+}

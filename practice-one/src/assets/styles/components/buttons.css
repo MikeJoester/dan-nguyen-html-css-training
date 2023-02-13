@@ -57,10 +57,9 @@
 
 .btn-secondary--card {
     margin-bottom: 36px;
-    font-weight: 400px;
-    font-weight: 400;
+    font-weight: var(--font-weight-mediumlight);
     font-size: var(--font-size-small);
-    line-height: 20px;
+    line-height: var(--line-height-sm);
 }
 
 .btn-dark {

@@ -69,7 +69,7 @@
 }
 
 .price__category {
-    font-size: 18px;
+    font-size: var(--font-size-md);
     font-weight: var(--font-weight-mediumbold);
     letter-spacing: 1px;
     text-transform: uppercase;
@@ -85,9 +85,9 @@
 }
 
 .price__value--dollar {
-    font-size: 24px;
+    font-size: var(--font-size-lg);
 }
 
 .price__value--num {
-    font-size: 64px;
+    font-size: var(--font-size-4xl);
 }
