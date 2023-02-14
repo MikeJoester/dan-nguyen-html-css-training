@@ -85,13 +85,6 @@
 .subscribe__form {
     display: flex;
     flex-direction: row;
-    width: 100%;
     justify-content: space-between;
-}
-
-.register__input--subscribe {
-    height: auto;
-    width: auto;
-    border: 1px solid var(--border-color);
-    background-color: var(--light-color);
+    align-items: center;
 }

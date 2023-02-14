@@ -33,6 +33,13 @@
     height: 36px;
 }
 
+.register__input--subscribe {
+    align-self: stretch;
+    width: auto;
+    height: auto;
+    background-color: var(--light-color);
+}
+
 .register__input::placeholder {
     color: var(--silver-color);
     font-family: var(--font-secondary);
