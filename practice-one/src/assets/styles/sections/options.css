@@ -3,18 +3,6 @@
     line-height: var(--line-height-md);
 }
 
-.container--features {
-    padding-top: 68px;
-    height: 768px;
-    justify-content: space-between;
-}
-
-.container--statistics {
-    padding-top: 68px;
-    height: 768px;
-    justify-content: flex-start;
-}
-
 .features__heading {
     display: flex;
     flex-direction: column;
@@ -60,11 +48,6 @@
 .item__text--details {
     font-weight: 300;
     line-height: var(--line-height-md);
-}
-
-.container--register {
-    height: 588px;
-    background-image: url('../../images/signup_bg.png');
 }
 
 .title--light {

@@ -43,4 +43,7 @@
 
   /* -------------scrollbar-width-------------- */
   --scrollbar-width: 7px;
+
+  /* -------------image-directory-------------- */
+  --header-bg: url(../../images/header_bg.png);
 }
