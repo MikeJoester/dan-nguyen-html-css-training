@@ -1,6 +1,12 @@
-@import url(./buttons.css);
-@import url(./cards.css);
+@import url(./heading.css);
+
+@import url(./button.css);
+
+@import url(./card.css);
+
+@import url(./container.css);
+
 @import url(./navbar.css);
+
 @import url(./progressbar.css);
-@import url(./containers.css);
-@import url(./headings.css);
+

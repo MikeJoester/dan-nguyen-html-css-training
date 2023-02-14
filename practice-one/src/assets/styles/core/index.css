@@ -27,7 +27,7 @@ body {
 p {
     font-style: normal;
     font-family: var(--font-secondary);
-    color: var(--primary-color);
+    color: var(--border-color);
 }
 
 a {

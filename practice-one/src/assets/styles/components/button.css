@@ -1,3 +1,7 @@
+/*------------------------------------*\
+  #Buttons
+\*------------------------------------*/
+
 .btn {
     width: 180px;
     height: 48px;
@@ -39,8 +43,8 @@
 .btn-clear {
     margin-bottom: 36px;
     cursor: pointer;
-    font-size: var(--font-size-small);
-    color: var(--silver-color);
+    font-size: var(--font-size-sm);
+    color: var(--cl-darksilver);
     line-height: 20px;
     letter-spacing: 1px;
 }
@@ -58,12 +62,12 @@
 .btn-secondary--card {
     margin-bottom: 36px;
     font-weight: var(--font-weight-mediumlight);
-    font-size: var(--font-size-small);
+    font-size: var(--font-size-sm);
     line-height: var(--line-height-sm);
 }
 
 .btn-dark {
-    background-color: var(--silver-color);
+    background-color: var(--cl-darksilver);
     width: 150px;
     height: 48px;
     border-color: transparent;

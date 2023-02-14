@@ -1,13 +1,20 @@
+/*------------------------------------*\
+  #Headings
+\*------------------------------------*/
+
 .heading {
-    color: var(--silver-color);
+    color: var(--cl-darksilver);
+    text-transform: capitalize;
     font-weight: var(--font-weight-mediumbold);
     font-size: var(--font-size-xxx-lg);
 }
 
 .heading--md {
     padding-top: 32px;
+    text-transform: uppercase;
     font-size: var(--font-size-md);
     line-height: var(--line-height-lg);
+    letter-spacing: 1px;
 }
 
 .heading--sm {

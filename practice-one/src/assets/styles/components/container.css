@@ -1,3 +1,7 @@
+/*------------------------------------*\
+  #Containers
+\*------------------------------------*/
+
 .container {
     display: flex;
     height: 680px;
@@ -18,9 +22,9 @@
 }
 
 .container--features {
-    padding-top: 68px;
+    padding-top: 80px;
     height: 768px;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .container--statistics {

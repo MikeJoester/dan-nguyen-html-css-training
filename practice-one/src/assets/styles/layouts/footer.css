@@ -1,9 +1,13 @@
+/*------------------------------------*\
+  #Footer
+\*------------------------------------*/
+
 .container--footer {
     height: 276px;
     background-color: var(--light-color);
 }
 
-.footer__wrapper {
+.footer-main {
     display: flex;
     flex-direction: column;
     padding-top: 42px;
@@ -40,6 +44,7 @@
 
 .info__item {
     cursor: pointer;
+    text-transform: uppercase;
     font-weight: var(--font-weight-mediumbold);
     transition: 0.2s;
 }

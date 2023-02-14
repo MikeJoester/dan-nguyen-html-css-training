@@ -1,5 +1,9 @@
+/*------------------------------------*\
+  #Options Section
+\*------------------------------------*/
+
 .options__desc p {
-    color: var(--silver-color);
+    color: var(--cl-darksilver);
     line-height: var(--line-height-md);
 }
 
@@ -35,12 +39,14 @@
 }
 
 .item__text {
-    color: #000;
-    font-size: var(--font-size-small);
+    color: var(--cl-darksilver);
+    font-size: var(--font-size-sm);
     width: 262px;
 }
 
 .item__text--title {
+    text-transform: uppercase;
+    font-size: var(--font-size-sm);
     font-weight: var(--font-weight-mediumbold);
     line-height: 30px;
 }
@@ -48,13 +54,4 @@
 .item__text--details {
     font-weight: 300;
     line-height: var(--line-height-md);
-}
-
-.title--light {
-    padding-top: 72px;
-    padding-bottom: 36px;
-    color: var(--primary-color);
-    font-weight: var(--font-weight-mediumbold);
-    font-size: var(--font-size-xxx-lg);
-    line-height: var(--line-height-xx-lg);
 }

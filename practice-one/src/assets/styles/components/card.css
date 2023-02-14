@@ -1,4 +1,8 @@
-.card__view {
+/*------------------------------------*\
+  #Cards
+\*------------------------------------*/
+
+.card {
     padding-top: 76px;
     width: 100%;
     display: flex;
@@ -8,7 +12,7 @@
     gap: 31px;
 }
 
-.card {
+.card-view {
     width: 262px;
     height: 372px;
     background: var(--primary-color);
@@ -21,15 +25,16 @@
     justify-content: space-between;
 }
 
-.card--recommend {
+.card-view--recommend {
     box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
 }
 
-.card__view--statistics {
-    gap: 128px;
+.card--statistics {
+    gap: 0px;
+    justify-content: space-evenly;
 }
 
-.card--statistics {
+.card-view--statistics {
     height: 100%;
     box-shadow: none;
     background: transparent;
@@ -69,6 +74,7 @@
 }
 
 .price__category {
+    color: var(--primary-color);
     font-size: var(--font-size-md);
     font-weight: var(--font-weight-mediumbold);
     letter-spacing: 1px;
@@ -82,12 +88,15 @@
     align-items: center;
     color: var(--primary-color);
     font-weight: var(--font-weight-mediumbold);
+    font-family: var(--font-primary);
 }
 
 .price__value--dollar {
+    color: var(--primary-color);
     font-size: var(--font-size-lg);
 }
 
 .price__value--num {
+    color: var(--primary-color);
     font-size: var(--font-size-4xl);
 }
