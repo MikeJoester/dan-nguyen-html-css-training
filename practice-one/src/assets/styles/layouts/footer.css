@@ -2,22 +2,23 @@
   #Footer
 \*------------------------------------*/
 
-.container--footer {
+.footer {
+    display: flex;
+    justify-content: center;
     height: 276px;
     background-color: var(--light-color);
+    padding-top: 42px;
 }
 
 .footer-main {
     display: flex;
     flex-direction: column;
-    padding-top: 42px;
     width: calc(100% - 150px);
     gap: 25px;
 }
 
 .footer-line {
-    width: 100%;
-    background-color: #000;
+    background-color: var(--cl-gray);
     height: 1px;
 }
 

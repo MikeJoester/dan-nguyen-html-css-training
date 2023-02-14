@@ -1,0 +1,15 @@
+/*------------------------------------*\
+  #Options Section
+\*------------------------------------*/
+
+.options {
+    padding: 68px 0px 80px 0px;
+    background-color: var(--light-color);
+    display: flex;
+    justify-content: center;
+}
+
+.options__desc p {
+    color: var(--cl-darksilver);
+    line-height: var(--line-height-md);
+}

@@ -5,12 +5,13 @@
 .btn {
     width: 180px;
     height: 48px;
+    color: var(--primary-color);
     text-transform: uppercase;
     background-color: transparent;
     border: 2px solid var(--primary-color);
     border-radius: 50px;
-    color: var(--primary-color);
-    font-weight: 400;
+    font: var(--font-size-sm)/20px var(--font-primary);
+    letter-spacing: 1px;
     cursor: pointer;
 }
 
@@ -37,16 +38,11 @@
 
 .btn-secondary:active {
     background-color: var(--border-color);
-    transition: none;
 }
 
 .btn-clear {
     margin-bottom: 36px;
-    cursor: pointer;
-    font-size: var(--font-size-sm);
     color: var(--cl-darksilver);
-    line-height: 20px;
-    letter-spacing: 1px;
 }
 
 .btn-clear:hover {
@@ -61,15 +57,11 @@
 
 .btn-secondary--card {
     margin-bottom: 36px;
-    font-weight: var(--font-weight-mediumlight);
-    font-size: var(--font-size-sm);
-    line-height: var(--line-height-sm);
 }
 
 .btn-dark {
     background-color: var(--cl-darksilver);
     width: 150px;
-    height: 48px;
     border-color: transparent;
     border-radius: 4px;
 }

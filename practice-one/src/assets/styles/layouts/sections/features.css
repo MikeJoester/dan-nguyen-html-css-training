@@ -1,22 +1,25 @@
 /*------------------------------------*\
-  #Options Section
+  #Features Section
 \*------------------------------------*/
 
-.options__desc p {
-    color: var(--cl-darksilver);
-    line-height: var(--line-height-md);
+.features {
+    padding-top: 80px;
+    height: 768px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .features__heading {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 55px;
 }
 
 .features__details {
     display: flex;
     flex-direction: row;
-    margin-bottom: 60px;
     width: 100%;
 }
 

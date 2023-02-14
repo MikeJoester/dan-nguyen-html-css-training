@@ -2,17 +2,16 @@
   #Register Form
 \*------------------------------------*/
 
-.title--light {
-    text-transform: capitalize;
+.register {
     padding-top: 72px;
-    padding-bottom: 36px;
-    color: var(--primary-color);
-    font-weight: var(--font-weight-mediumbold);
-    font-size: var(--font-size-xxx-lg);
-    line-height: var(--line-height-xx-lg);
+    height: 588px;
+    background-image: url('../../../images/signup_bg.png');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
 }
 
-.register {
+.register__form {
     width: 360px;
     height: 384px;
     background: 

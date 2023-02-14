@@ -2,12 +2,18 @@
   #Header
 \*------------------------------------*/
 
+.header {
+    padding-top: 54px;
+    background: url('../../images/header_bg.png') no-repeat;
+    background-size: cover;
+    height: 680px;
+    display: flex;
+    justify-content: center;
+}
+
 .header-details {
     padding-top: 92px;
     text-align: center;
-}
-
-.header-details__container {
     display: flex;
     gap: 30px;
     flex-direction: column;

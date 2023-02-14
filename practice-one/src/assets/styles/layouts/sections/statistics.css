@@ -1,0 +1,10 @@
+/*------------------------------------*\
+  #Statistics Section
+\*------------------------------------*/
+
+.statistics {
+    padding-top: 68px;
+    height: 682px;
+    display: flex;
+    justify-content: center;
+}

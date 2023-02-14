@@ -59,7 +59,7 @@
     display: flex;
     flex-direction: row;
     align-items: baseline;
-    color: var(--border-color);
+    color: var(--cl-darksilver);
 }
 
 .progress-value--text {

@@ -3,17 +3,12 @@
 \*------------------------------------*/
 
 .navbar {
-    width: calc(100% - 150px);
+    width: 100%;
+    background-size: 100%;
     display: flex;
     text-transform: uppercase;
-}
-
-.navbar__container {
-    width: 100%;
-    display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 54px;
 }
 
 .logo__text {
