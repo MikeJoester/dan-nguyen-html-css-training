@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+
+:root {
+  /* --------------font-------------------- */
+  --font-primary: 'Montserrat', sans-serif;
+  --font-secondary: 'Source Sans Pro', sans-serif;
+
+  /* -------------color-------------------- */
+  --primary-color: #fff;
+  --secondary-color: #ebcb80;
+  --secondary-dark: #a68f5b;
+  --light-color: #f6f6f6;
+  --title-color: #102746;
+  --silver-color: #4b4b4b;
+  --border-color: #7d7d7d;
+  --input-bg: #e1e1e1;
+  --input-border: #999999;
+
+  /* -------------font-weight-------------- */
+  --font-weight-light: 300;
+  --font-weight-mediumlight: 400;
+  --font-weight-semibold: 500;
+  --font-weight-mediumbold: 700;
+
+  /* -------------font-size---------------- */
+  --font-size-sm: 16px;
+  --font-size-md: 18px;
+  --font-size-lg: 24px;
+  --font-size-x-lg: 30px;
+  --font-size-xx-lg: 36px;
+  --font-size-xxx-lg: 44px;
+  --font-size-4xl: 64px;
+
+  /* -------------line-height-------------- */
+  --line-height-sm: 20px;
+  --line-height-md: 24px;
+  --line-height-lg: 30px;
+  --line-height-x-lg: 40px;
+  --line-height-xx-lg: 42px;
+  --line-height-xxx-lg: 60px;
+
+  /* -------------scrollbar-width-------------- */
+  --scrollbar-width: 7px;
+
+  /* -------------image-directory-------------- */
+  --header-bg: url(../../images/header_bg.png);
+}

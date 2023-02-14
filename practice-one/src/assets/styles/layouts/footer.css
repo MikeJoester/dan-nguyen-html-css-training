@@ -1,0 +1,90 @@
+.container--footer {
+    height: 276px;
+    background-color: var(--light-color);
+}
+
+.footer__wrapper {
+    display: flex;
+    flex-direction: column;
+    padding-top: 42px;
+    width: calc(100% - 150px);
+    gap: 25px;
+}
+
+.footer-line {
+    width: 100%;
+    background-color: #000;
+    height: 1px;
+}
+
+.footer-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.phone-number {
+    color: var(--silver-color);
+}
+
+.phone-number:hover {
+    color: var(--secondary-dark);
+    opacity: 1.0;
+}
+
+.info__list {
+    display: flex;
+    flex-direction: row;
+    gap: 38px;
+}
+
+.info__item {
+    cursor: pointer;
+    font-weight: var(--font-weight-mediumbold);
+    transition: 0.2s;
+}
+
+.info__item:hover {
+    color: var(--secondary-color);
+}
+
+.social__icon {
+    width: 24px;
+    height: 24px;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.social__icon--pinterest {
+    background-image: url('../../images/pinterest.svg');
+}
+
+.social__icon--twitter {
+    background-image: url('../../images/twitter.svg');
+    width: 30px;
+}
+
+.social__icon--facebook {
+    background-image: url('../../images/facebook.svg');
+}
+
+.contacts {
+    display: flex;
+    color: var(--silver-color);
+    font: var(--font-size-sm)/var(--font-size-lg) var(--font-secondary);
+    flex-direction: column;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+
+.contacts--subscribe {
+    width: 360px;
+    justify-content: space-between;
+}
+
+.subscribe__form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}

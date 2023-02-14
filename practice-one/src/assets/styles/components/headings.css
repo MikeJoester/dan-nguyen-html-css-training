@@ -1,0 +1,18 @@
+.heading {
+    color: var(--silver-color);
+    font-weight: var(--font-weight-mediumbold);
+    font-size: var(--font-size-xxx-lg);
+}
+
+.heading--md {
+    padding-top: 32px;
+    font-size: var(--font-size-md);
+    line-height: var(--line-height-lg);
+}
+
+.heading--sm {
+    padding-top: 22px;
+    font-size: var(--font-size-sm);
+    line-height: var(--line-height-md);
+    font-weight: var(--font-weight-mediumlight);
+}

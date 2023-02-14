@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+    height: 680px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container--header {
+    background-image: url('../../images/header_bg.png');
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.3);
+}
+
+.container--options {
+    padding-top: 68px;
+    background-color: var(--light-color);
+}
+
+.container--features {
+    padding-top: 68px;
+    height: 768px;
+    justify-content: space-between;
+}
+
+.container--statistics {
+    padding-top: 68px;
+    height: 768px;
+    justify-content: flex-start;
+}
+
+.container--register {
+    height: 588px;
+    background-image: url('../../images/signup_bg.png');
+}

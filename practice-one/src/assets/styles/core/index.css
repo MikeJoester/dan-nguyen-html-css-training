@@ -1,0 +1,36 @@
+/*------------------------------------*\
+  #Scrollbar
+\*------------------------------------*/
+::-webkit-scrollbar {
+    width: var(--scrollbar-width);
+}
+
+::-webkit-scrollbar-track {
+    background: var(--light-color);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--border-color);
+}
+
+/*------------------------------------*\
+  #main
+\*------------------------------------*/
+
+body {
+    padding: 0;
+    margin: 0 auto;
+    font-family: var(--font-primary);
+    font-style: normal;
+}
+
+p {
+    font-style: normal;
+    font-family: var(--font-secondary);
+    color: var(--primary-color);
+}
+
+a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
