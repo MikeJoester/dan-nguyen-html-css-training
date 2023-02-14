@@ -31,7 +31,7 @@ This document provides an estimation for the HTML/CSS first practice plan:
 
 - Clone repository:
 ~~~
-git clone -b feature/practice-1 https://github.com/MikeJoester/html-css-training.git
+git clone -b develop https://github.com/MikeJoester/html-css-training.git
 ~~~
 - Go to `practice-one` folder:
 ~~~
