@@ -2,8 +2,5 @@ node_modules/
 package-lock.json
 .cache/
 .parcel-cache/
-<<<<<<< HEAD
 dist/
-=======
-dist/
->>>>>>> 488227fecc7e917320b94b2ebe866a1662f4b848
+
