@@ -23,7 +23,7 @@ This document provides an estimation for the HTML/CSS first practice plan:
 
 ## Requirements
 - Node: version 16.17.1 or above
-- npm: version 9.0.0 or above
+- npm: version 9.4.0 or above
 - Parcel: version 2.8.3
 
 
