@@ -3,8 +3,8 @@
 \*------------------------------------*/
 
 .statistics {
-    padding-top: 68px;
-    height: 682px;
+    padding: 70px 0px 110px 0px;
+    height: auto;
     display: flex;
     justify-content: center;
 }

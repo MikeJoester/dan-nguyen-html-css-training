@@ -4,9 +4,10 @@
 
 .header {
     padding-top: 54px;
+    padding-bottom: 176px;
     background: url('../../images/header_bg.png') no-repeat;
     background-size: cover;
-    height: 680px;
+    height: auto;
     display: flex;
     justify-content: center;
 }

@@ -5,9 +5,9 @@
 .footer {
     display: flex;
     justify-content: center;
-    height: 276px;
+    height: auto;
     background-color: var(--light-color);
-    padding-top: 42px;
+    padding: 42px 0px 42px 0px;
 }
 
 .footer-main {

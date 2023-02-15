@@ -3,8 +3,8 @@
 \*------------------------------------*/
 
 .register {
-    padding-top: 72px;
-    height: 588px;
+    padding: 70px 0px 48px 0px;
+    height: auto;
     background-image: url('../../../images/signup_bg.png');
     background-size: cover;
     display: flex;
