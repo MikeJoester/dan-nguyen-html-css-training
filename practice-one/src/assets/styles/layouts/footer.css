@@ -44,34 +44,20 @@
 }
 
 .info__item {
-    cursor: pointer;
     text-transform: uppercase;
+    color: var(--silver-color);
     font-weight: var(--font-weight-mediumbold);
-    transition: 0.2s;
 }
 
 .info__item:hover {
     color: var(--secondary-color);
+    transition: 0.2s;
 }
 
 .social__icon {
     width: 24px;
     height: 24px;
     opacity: 0.5;
-    cursor: pointer;
-}
-
-.social__icon--pinterest {
-    background-image: url('../../images/pinterest.svg');
-}
-
-.social__icon--twitter {
-    background-image: url('../../images/twitter.svg');
-    width: 30px;
-}
-
-.social__icon--facebook {
-    background-image: url('../../images/facebook.svg');
 }
 
 .contacts {

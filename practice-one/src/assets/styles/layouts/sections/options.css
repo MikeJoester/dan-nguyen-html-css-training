@@ -10,6 +10,7 @@
 }
 
 .options__desc p {
+    /* change to class */
     color: var(--cl-darksilver);
     line-height: var(--line-height-md);
 }
