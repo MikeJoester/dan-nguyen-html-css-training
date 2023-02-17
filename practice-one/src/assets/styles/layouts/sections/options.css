@@ -9,8 +9,9 @@
     justify-content: center;
 }
 
-.options__desc p {
-    /* change to class */
+.options__desc {
+    width: 100%;
+    position: relative;
     color: var(--cl-darksilver);
     line-height: var(--line-height-md);
 }

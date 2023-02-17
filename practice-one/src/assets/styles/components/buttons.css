@@ -55,9 +55,9 @@
     border: 2px solid var(--title-color);
 }
 
-.btn-secondary--card {
+/* .btn-secondary--card {
     margin-bottom: 36px;
-}
+} */
 
 .btn-dark {
     background-color: var(--cl-darksilver);
