@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+
+:root {
+  /*------------------------------------*\
+  #Font Families
+  \*------------------------------------*/
+  --font-primary: 'Montserrat', sans-serif;
+  --font-secondary: 'Source Sans Pro', sans-serif;
+
+  /*------------------------------------*\
+  #Colors
+  \*------------------------------------*/
+  --cl-white: #fff;
+  --cl-gold: #ebcb80;
+  --cl-darkgold: #a68f5b;
+  --cl-lightgray: #f6f6f6;
+  --cl-pianoblack: #102746;
+  --cl-darksilver: #4b4b4b;
+  --cl-gray: #7d7d7d;
+  --cl-paper: #e1e1e1;
+  --cl-dustygray: #999;
+
+  --primary-color: var(--cl-white);
+  --secondary-color: var(--cl-gold);
+  --secondary-dark: var(--cl-darkgold);
+  --light-color: var(--cl-lightgray);
+  --title-color: var(--cl-pianoblack);
+  --border-color: var(--cl-gray);
+  --input-bg: var(--cl-paper);
+  --input-border: var(--cl-dustygray);
+
+  /*------------------------------------*\
+  #Font Weight
+  \*------------------------------------*/
+  --font-weight-light: 300;
+  --font-weight-mediumlight: 400;
+  --font-weight-semibold: 500;
+  --font-weight-mediumbold: 700;
+
+  /*------------------------------------*\
+  #Font Size
+  \*------------------------------------*/
+  --font-size-sm: 16px;
+  --font-size-md: 18px;
+  --font-size-lg: 24px;
+  --font-size-x-lg: 30px;
+  --font-size-xx-lg: 36px;
+  --font-size-xxx-lg: 44px;
+  --font-size-4xl: 64px;
+
+  /*------------------------------------*\
+  #Line Height
+  \*------------------------------------*/
+  --line-height-sm: 20px;
+  --line-height-md: 24px;
+  --line-height-lg: 30px;
+  --line-height-x-lg: 40px;
+  --line-height-xx-lg: 42px;
+  --line-height-xxx-lg: 60px;
+
+  /*------------------------------------*\
+  #Scrollbar Width
+  \*------------------------------------*/
+  --scrollbar-width: 7px;
+}

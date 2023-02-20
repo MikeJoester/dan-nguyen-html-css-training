@@ -1,0 +1,17 @@
+/*------------------------------------*\
+  #Options Section
+\*------------------------------------*/
+
+.options {
+    padding: 68px 0px 90px 0px;
+    background-color: var(--light-color);
+    display: flex;
+    justify-content: center;
+}
+
+.options__desc {
+    width: 100%;
+    position: relative;
+    color: var(--cl-darksilver);
+    line-height: var(--line-height-md);
+}

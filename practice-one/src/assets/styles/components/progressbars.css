@@ -1,0 +1,96 @@
+/*------------------------------------*\
+  #Progress Bar
+\*------------------------------------*/
+
+.progress-bar {
+    --process-diameter: 204px;
+    --process-degree: 90deg;
+
+    margin: 0px auto;
+    width: var(--process-diameter);
+    height: var(--process-diameter);
+    background: conic-gradient(transparent var(--process-degree), var(--secondary-color) 0deg);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.progress-bar--three-quarter {
+    --process-degree: 90deg;
+}
+
+.progress-bar--one-third {
+    --process-degree: 230deg;
+}
+
+.progress-bar--custom {
+    --process-degree: 45deg;
+}
+
+.progress-bar::before {
+    --process-diameter-delta: 15px;
+    --process-diameter-before: calc(var(--process-diameter) - var(--process-diameter-delta));
+
+    content: "";
+    position: absolute;
+    height: var(--process-diameter-before);
+    width: var(--process-diameter-before);
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.progress-bar::after {
+    --border-thickness: 2px;
+    --process-diameter-after: calc(var(--process-diameter) - var(--border-thickness));
+
+    content: "";
+    position: absolute;
+    z-index: -1;
+    background-color: #fff;
+    width: var(--process-diameter-after);
+    height: var(--process-diameter-after);
+    border: var(--border-thickness) solid var(--cl-paper);
+    border-radius: 50%;
+}
+
+.progress-value {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    color: var(--cl-darksilver);
+}
+
+.progress-value--text {
+    font: var(--font-size-4xl)/var(--line-height-xx-lg) var(--font-primary);
+    font-weight: var(--font-weight-mediumbold);
+}
+
+.progress-value--text-small {
+
+    font: calc(var(--font-size-4xl) * .5)/var(--line-height-xx-lg) var(--font-primary);
+    font-weight: var(--font-weight-mediumbold);
+}
+
+.progress__desc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.progress__title {
+    font-size: var(--font-size-md);
+    color: var(--cl-darksilver);
+    font-weight: var(--font-weight-mediumbold);
+    line-height: var(--line-height-lg);
+    text-transform: uppercase;
+}
+
+.progress__text {
+    font-size: var(--font-size-sm);
+    color: var(--cl-darksilver);
+    font-weight: var(--font-weight-light);
+    line-height: var(--line-height-md);
+}

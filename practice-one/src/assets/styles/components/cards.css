@@ -1,0 +1,96 @@
+/*------------------------------------*\
+  #Cards
+\*------------------------------------*/
+
+.card {
+    padding-top: 76px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 31px;
+}
+
+.card-view {
+    width: 262px;
+    height: 372px;
+    background: var(--primary-color);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: flex-start;
+    gap: 17px;
+}
+
+.card-view--recommend {
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card--statistics {
+    gap: 0px;
+    justify-content: space-evenly;
+}
+
+.card-view--statistics {
+    height: 100%;
+    box-shadow: none;
+    background: transparent;
+    border-radius: 0px;
+    justify-content: flex-start;
+    gap: 25px;
+}
+
+.card__price {
+    width: 100%;
+    position: relative;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.card__img {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.price__details {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    height: 100%;
+}
+
+.price__category {
+    color: var(--primary-color);
+    font-size: var(--font-size-md);
+    font-weight: var(--font-weight-mediumbold);
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.price__value {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    color: var(--primary-color);
+    font-weight: var(--font-weight-mediumbold);
+    font-family: var(--font-primary);
+}
+
+.price__value--dollar {
+    color: var(--primary-color);
+    font-size: var(--font-size-lg);
+}
+
+.price__value--num {
+    color: var(--primary-color);
+    font-size: var(--font-size-4xl);
+}

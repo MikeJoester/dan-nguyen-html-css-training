@@ -1,0 +1,82 @@
+/*------------------------------------*\
+  #Footer
+\*------------------------------------*/
+
+.footer {
+    display: flex;
+    justify-content: center;
+    height: auto;
+    background-color: var(--light-color);
+    padding: 42px 0px 42px 0px;
+}
+
+.footer-main {
+    display: flex;
+    flex-direction: column;
+    width: calc(100% - 150px);
+    gap: 25px;
+}
+
+.footer-line {
+    background-color: var(--cl-gray);
+    height: 1px;
+}
+
+.footer-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.phone-number {
+    color: var(--silver-color);
+}
+
+.phone-number:hover {
+    color: var(--secondary-dark);
+    opacity: 1.0;
+}
+
+.info__list {
+    display: flex;
+    flex-direction: row;
+    gap: 38px;
+}
+
+.info__item {
+    text-transform: uppercase;
+    color: var(--silver-color);
+    font-weight: var(--font-weight-mediumbold);
+}
+
+.info__item:hover {
+    color: var(--secondary-color);
+    transition: 0.2s;
+}
+
+.social__icon {
+    width: 24px;
+    height: 24px;
+    opacity: 0.5;
+}
+
+.contacts {
+    display: flex;
+    color: var(--silver-color);
+    font: var(--font-size-sm)/var(--font-size-lg) var(--font-secondary);
+    flex-direction: column;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+
+.contacts--subscribe {
+    width: 360px;
+    justify-content: space-between;
+}
+
+.subscribe__form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}

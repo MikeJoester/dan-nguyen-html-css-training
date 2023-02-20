@@ -1,0 +1,34 @@
+/*------------------------------------*\
+  #Navigation Bar
+\*------------------------------------*/
+
+.navbar {
+    width: 100%;
+    background-size: 100%;
+    display: flex;
+    text-transform: uppercase;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo__text {
+    color: var(--secondary-color);
+    font-weight: var(--font-weight-mediumbold);
+    font-size: var(--font-size-xx-lg);
+}
+
+.navbar__nav {
+    display: flex;
+    align-items: center;
+    gap: 48px;
+}
+
+.nav__item {
+    color: var(--primary-color);
+    font-weight: var(--font-weight-mediumbold);
+}
+
+.nav__link:hover {
+    color: var(--secondary-color);
+    transition: 0.3s;
+}
