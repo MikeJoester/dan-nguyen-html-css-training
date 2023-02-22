@@ -1,15 +1,17 @@
 # intern-training
 
 ## OVERVIEW
-This document provides an estimation for the HTML/CSS first practice plan:
+This document provides an estimation for the HTML/CSS second practice plan:
 - Implement mobile, tablet and desktop responsive design for Practice 1’s website into the Practice 2;
 - Design: [Figma Design](https://www.figma.com/file/D65OHCz4xqAK1Y4FF4TLmaS2/Hofmann-UI-Kit?node-id=1%3A678&t=HlrdRFt68zczjv4b-0).
 
 
 ## TARGETS
-- Understanding the Responsive Web Design basics;
-- Understanding the difference between mobile-first, adaptive and responsive design;
-- Understanding media queries.
+- Apply knowledge to responsive practice one design
+- Used media queries for popular screen size
+- Apply CSS guidelines
+- Apply Flexbox layout
+- Continue improve about BEM to this practice
 
 
 

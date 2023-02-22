@@ -42,6 +42,7 @@
   /*------------------------------------*\
   #Font Size
   \*------------------------------------*/
+  --font-size-xs: 11px;
   --font-size-sm: 16px;
   --font-size-md: 18px;
   --font-size-lg: 24px;

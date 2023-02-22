@@ -35,8 +35,21 @@
 \*------------------------------------*/
 
 .container {
+    --padding-val: 150px;
     display: flex;
-    width: calc(100% - 150px);
+    width: calc(100% - var(--padding-val));
     flex-direction: column;
     align-items: center;
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .container {
+    --padding-val: 24px;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .container {
+    --padding-val: 15px;
+  }
 }

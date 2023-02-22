@@ -6,8 +6,6 @@
     padding-top: 76px;
     width: 100%;
     display: flex;
-    flex-direction: row;
-    align-items: center;
     justify-content: center;
     gap: 31px;
 }
@@ -22,7 +20,6 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    justify-content: flex-start;
     gap: 17px;
 }
 
@@ -45,26 +42,22 @@
 }
 
 .card__price {
-    width: 100%;
     position: relative;
-    padding-top: 40px;
-    padding-bottom: 40px;
 }
 
 .card__img {
-    position: absolute;
-    left: 0;
-    top: 0;
+    width: 100%;
+    height: auto;
 }
 
 .price__details {
-    position: relative;
+    position: absolute;
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center;
-    justify-content: space-around;
-    height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .price__category {
