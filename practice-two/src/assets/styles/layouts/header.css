@@ -13,7 +13,6 @@
 }
 
 .header-details {
-    padding-top: 92px;
     text-align: center;
     display: flex;
     gap: 30px;
@@ -33,4 +32,39 @@
     font-size: var(--font-size-sm);
     line-height: var(--line-height-md);
     color: var(--primary-color);
+}
+
+/* Medium devices (landscape tablets) */
+@media only screen and (max-width: 768px) {
+  .header-details {
+    width: 345px;
+    gap: 20px;
+    padding: 0;
+  }
+
+  .header-details__text {
+    font-size: var(--font-size-tb);
+  }
+
+  .header-details__desc {
+    font-size: var(--font-size-xs);
+    line-height: var(--line-height-sm);
+  }
+}
+
+/* Small devices (portrait tablets and large phones) */
+@media only screen and (max-width: 576px) {
+  .header {
+    padding-bottom: 108px;
+  }
+
+  .header-details {
+    width: 190px;
+    gap: 15px;
+  }
+
+  .header-details__text {
+    font-size: var(--font-size-mb);
+    line-height: var(--line-height-md);
+  }
 }

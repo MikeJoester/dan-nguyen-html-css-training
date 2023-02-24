@@ -30,8 +30,24 @@
                             <button type="button" class="btn">take a tour</button>
                         </li>
                     </ul>
+                    <button type="button" class="btn btn-hidden" id="nav" onclick="setNav()" title="burger">
+                      <img src="./assets/images/hamburger-menu.svg" alt="Burger"/>
+                    </button>
                 </nav>
-
+                <ul class="sub-menu" id="nav-dropdown">
+                  <li class="nav__item nav__item--dropdown">
+                    <a href="javascript:void(0)" class="nav__link">mission</a>
+                  </li>
+                  <li class="nav__item nav__item--dropdown">
+                      <a href="javascript:void(0)" class="nav__link">services</a>
+                  </li>
+                  <li class="nav__item nav__item--dropdown">
+                      <a href="javascript:void(0)" class="nav__link">about</a>
+                  </li>
+                  <li class="nav__item nav__item--dropdown">
+                      <button type="button" class="btn">take a tour</button>
+                  </li>
+                </ul>
                 <section class="header-details">
                     <h1 class="header-details__text">what makes a hotel boutique</h1>
                     <p class="header-details__desc">As conscious traveling Paupers we must always be concerned about our dear Mother Earth. If you think about it, you travel across her face, and She is the host to your journey; without Her we could not find the unfolding adventures that attract and feed our souls.</p>
@@ -42,203 +58,203 @@
         <!-- Header Section End-->
 
         <main>
-            <!-- Subscribing Plans -->
-            <section class="options">
-                <div class="container">
-                    <h2 class="heading">Subscribing Plans</h2>
-                    <div class="card">
-                        <div class="card-view">
-                            <div class="card__price">
-                                <img src="./assets/images/card_free.png" alt="Freemium" class="card__img"/>
-                                <div class="price__details">
-                                    <p class="price__category">freemium</p>
-                                    <div class="price__value">
-                                        <p class="price__value--dollar">$</p>
-                                        <p class="price__value--num">0</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <article class="options__desc">
-                                <p>Basic Collections</p>
-                                <p>10 Messages</p>
-                                <p>50 Images per Day</p>
-                                <br>
-                            </article>
-                            <button type="button" class="btn btn-clear">get started</button>
-                        </div>
+          <!-- Subscribing Plans -->
+          <section class="options">
+              <div class="container">
+                  <h2 class="heading">Subscribing Plans</h2>
+                  <div class="card">
+                      <div class="card-view">
+                          <div class="card__price">
+                              <img src="./assets/images/card_free.png" alt="Freemium" class="card__img"/>
+                              <div class="price__details">
+                                  <p class="price__category">freemium</p>
+                                  <div class="price__value">
+                                      <p class="price__value--dollar">$</p>
+                                      <p class="price__value--num">0</p>
+                                  </div>
+                              </div>
+                          </div>
+                          <article class="options__desc">
+                              <p>Basic Collections</p>
+                              <p>10 Messages</p>
+                              <p>50 Images per Day</p>
+                              <br>
+                          </article>
+                          <button type="button" class="btn btn-clear">get started</button>
+                      </div>
 
-                        <div class="card-view">
-                            <div class="card__price">
-                                <img src="./assets/images/card_startup.png" alt="Startup" class="card__img"/>
-                                <div class="price__details">
-                                    <p class="price__category">start up</p>
-                                    <div class="price__value">
-                                        <p class="price__value--dollar">$</p>
-                                        <p class="price__value--num">9</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <article class="options__desc">
-                                <p>Multiple Collections</p>
-                                <p>100 Messages</p>
-                                <p>100 Images per Day</p>
-                                <br>
-                            </article>
-                            <button type="button" class="btn btn-clear">get started</button>
-                        </div>
+                      <div class="card-view">
+                          <div class="card__price">
+                              <img src="./assets/images/card_startup.png" alt="Startup" class="card__img"/>
+                              <div class="price__details">
+                                  <p class="price__category">start up</p>
+                                  <div class="price__value">
+                                      <p class="price__value--dollar">$</p>
+                                      <p class="price__value--num">9</p>
+                                  </div>
+                              </div>
+                          </div>
+                          <article class="options__desc">
+                              <p>Multiple Collections</p>
+                              <p>100 Messages</p>
+                              <p>100 Images per Day</p>
+                              <br>
+                          </article>
+                          <button type="button" class="btn btn-clear">get started</button>
+                      </div>
 
-                        <div class="card-view card-view--recommend">
-                            <div class="card__price">
-                                <img src="./assets/images/card_business.png" alt="Business" class="card__img"/>
-                                <div class="price__details">
-                                    <p class="price__category">business</p>
-                                    <div class="price__value">
-                                        <p class="price__value--dollar">$</p>
-                                        <p class="price__value--num">29</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <article class="options__desc">
-                                <p>Unlimited Collections</p>
-                                <p>500 Messages</p>
-                                <p>300 Images per Day</p>
-                                <p>Project Reviews</p>
-                            </article>
-                            <button type="button" class="btn btn-secondary btn-secondary--card">get started</button>
-                        </div>
+                      <div class="card-view card-view--recommend">
+                          <div class="card__price">
+                              <img src="./assets/images/card_business.png" alt="Business" class="card__img"/>
+                              <div class="price__details">
+                                  <p class="price__category">business</p>
+                                  <div class="price__value">
+                                      <p class="price__value--dollar">$</p>
+                                      <p class="price__value--num">29</p>
+                                  </div>
+                              </div>
+                          </div>
+                          <article class="options__desc">
+                              <p>Unlimited Collections</p>
+                              <p>500 Messages</p>
+                              <p>300 Images per Day</p>
+                              <p>Project Reviews</p>
+                          </article>
+                          <button type="button" class="btn btn-secondary btn-secondary--card">get started</button>
+                      </div>
 
-                        <div class="card-view">
-                            <div class="card__price">
-                                <img src="./assets/images/card_enterprise.png" alt="Enterprise" class="card__img"/>
-                                <div class="price__details">
-                                    <p class="price__category">enterprise</p>
-                                    <div class="price__value">
-                                        <p class="price__value--dollar">$</p>
-                                        <p class="price__value--num">49</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <article class="options__desc">
-                                <p>Unlimited Collections</p>
-                                <p>Unlimited Messages</p>
-                                <p>Unlimited Images per Day</p>
-                                <p>Project Reviews</p>
-                            </article>
-                            <button type="button" class="btn btn-clear">get started</button>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- Subscribing Plans End-->
+                      <div class="card-view">
+                          <div class="card__price">
+                              <img src="./assets/images/card_enterprise.png" alt="Enterprise" class="card__img"/>
+                              <div class="price__details">
+                                  <p class="price__category">enterprise</p>
+                                  <div class="price__value">
+                                      <p class="price__value--dollar">$</p>
+                                      <p class="price__value--num">49</p>
+                                  </div>
+                              </div>
+                          </div>
+                          <article class="options__desc">
+                              <p>Unlimited Collections</p>
+                              <p>Unlimited Messages</p>
+                              <p>Unlimited Images per Day</p>
+                              <p>Project Reviews</p>
+                          </article>
+                          <button type="button" class="btn btn-clear">get started</button>
+                      </div>
+                  </div>
+              </div>
+          </section>
+          <!-- Subscribing Plans End-->
 
-            <!-- Features -->
-            <section class="features">
-                <div class="container">
-                    <div class="features__heading">
-                        <h2 class="heading">features</h2>
-                        <p class="heading heading--md">we're taking it to the next level</p>
-                    </div>
+          <!-- Features -->
+          <section class="features">
+              <div class="container">
+                  <div class="features__heading">
+                      <h2 class="heading">features</h2>
+                      <p class="heading heading--md">we're taking it to the next level</p>
+                  </div>
 
-                    <div class="features__details">
-                        <div class="features__list">
-                            <div class="features__item">
-                                <img src="./assets/images/devices.svg" alt="Devices"/>
-                                <div class="item__text">
-                                    <p class="item__text--title">responsive layout</p>
-                                    <p class="item__text--details">The past few years have seen a dramatic change in the public perception of cosmetic surgery.</p>
-                                </div>
-                            </div>
-                            <div class="features__item">
-                                <img src="./assets/images/diamond.svg" alt="Diamond" />
-                                <div class="item__text">
-                                    <p class="item__text--title">pixel perfect</p>
-                                    <p class="item__text--details">About 64% of all on-line teens say that do things online that they wouldn’t want their parents to know about.</p>
-                                </div>
-                            </div>
-                            <div class="features__item">
-                                <img src="./assets/images/layers.svg" alt="Layers" />
-                                <div class="item__text">
-                                    <p class="item__text--title">organized layers</p>
-                                    <p class="item__text--details">Are you one of the thousands of Iphone owners who has no idea that they can get free games for their Iphone?</p>
-                                </div>
-                            </div>
-                        </div>
+                  <div class="features__details">
+                      <div class="features__list">
+                          <div class="features__item">
+                              <img src="./assets/images/devices.svg" alt="Devices"/>
+                              <div class="item__text">
+                                  <p class="item__text--title">responsive layout</p>
+                                  <p class="item__text--details">The past few years have seen a dramatic change in the public perception of cosmetic surgery.</p>
+                              </div>
+                          </div>
+                          <div class="features__item">
+                              <img src="./assets/images/diamond.svg" alt="Diamond" />
+                              <div class="item__text">
+                                  <p class="item__text--title">pixel perfect</p>
+                                  <p class="item__text--details">About 64% of all on-line teens say that do things online that they wouldn’t want their parents to know about.</p>
+                              </div>
+                          </div>
+                          <div class="features__item">
+                              <img src="./assets/images/layers.svg" alt="Layers" />
+                              <div class="item__text">
+                                  <p class="item__text--title">organized layers</p>
+                                  <p class="item__text--details">Are you one of the thousands of Iphone owners who has no idea that they can get free games for their Iphone?</p>
+                              </div>
+                          </div>
+                      </div>
 
-                        <div class="img-container">
-                          <img src="./assets/images/mac.png" alt="Works on Mac!" class="features__img"/>
-                        </div>
+                      <div class="img-container">
+                        <img src="./assets/images/mac.png" alt="Works on Mac!" class="features__img"/>
+                      </div>
 
-                    </div>
-                </div>
-            </section>
-            <!-- Features End -->
+                  </div>
+              </div>
+          </section>
+          <!-- Features End -->
 
-            <!-- Statistics -->
-            <section class="statistics">
-                <div class="container">
-                    <div class="features__heading">
-                        <h2 class="heading">stunning results</h2>
-                        <p class="heading heading--sm">Just look to the statistics we have generate the past year.</p>
-                    </div>
+          <!-- Statistics -->
+          <section class="statistics">
+              <div class="container">
+                  <div class="features__heading">
+                      <h2 class="heading">stunning results</h2>
+                      <p class="heading heading--sm">Just look to the statistics we have generate the past year.</p>
+                  </div>
 
-                    <ul class="card card--statistics">
-                        <li class="card-view card-view--statistics">
-                            <div class="progress-bar">
-                                <div class="progress-value">
-                                    <p class="progress-value--text">74</p>
-                                    <p class="progress-value--text-small">,98</p>
-                                </div>
-                            </div>
-                            <div class="progress__desc">
-                                <p class="progress__title">total converstion</p>
-                                <p class="progress__text">The past few years have seen a dramatic change in the public perception of cosmetic surgery.</p>
-                            </div>
-                        </li>
-                        <li class="card-view card-view--statistics">
-                            <div class="progress-bar progress-bar--one-third">
-                                <div class="progress-value">
-                                    <p class="progress-value--text">39</p>
-                                    <p class="progress-value--text-small">,75</p>
-                                </div>
-                            </div>
-                            <div class="progress__desc">
-                                <p class="progress__title">free downloads</p>
-                                <p class="progress__text">Can you imagine what we will be downloading in another twenty years?</p>
-                            </div>
-                        </li>
-                        <li class="card-view card-view--statistics">
-                            <div class="progress-bar progress-bar--custom">
-                                <div class="progress-value">
-                                    <p class="progress-value--text">81</p>
-                                    <p class="progress-value--text-small">,15</p>
-                                </div>
-                            </div>
-                            <div class="progress__desc">
-                                <p class="progress__title">unique visitors</p>
-                                <p class="progress__text">WordPress, the premier free open-source blogging utility, has gone through several upgrades in its life.</p>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </section>
-            <!-- Statistics End -->
+                  <ul class="card card--statistics">
+                      <li class="card-view card-view--statistics">
+                          <div class="progress-bar">
+                              <div class="progress-value">
+                                  <p class="progress-value--text">74</p>
+                                  <p class="progress-value--text-small">,98</p>
+                              </div>
+                          </div>
+                          <div class="progress__desc">
+                              <p class="progress__title">total converstion</p>
+                              <p class="progress__text">The past few years have seen a dramatic change in the public perception of cosmetic surgery.</p>
+                          </div>
+                      </li>
+                      <li class="card-view card-view--statistics">
+                          <div class="progress-bar progress-bar--one-third">
+                              <div class="progress-value">
+                                  <p class="progress-value--text">39</p>
+                                  <p class="progress-value--text-small">,75</p>
+                              </div>
+                          </div>
+                          <div class="progress__desc">
+                              <p class="progress__title">free downloads</p>
+                              <p class="progress__text">Can you imagine what we will be downloading in another twenty years?</p>
+                          </div>
+                      </li>
+                      <li class="card-view card-view--statistics">
+                          <div class="progress-bar progress-bar--custom">
+                              <div class="progress-value">
+                                  <p class="progress-value--text">81</p>
+                                  <p class="progress-value--text-small">,15</p>
+                              </div>
+                          </div>
+                          <div class="progress__desc">
+                              <p class="progress__title">unique visitors</p>
+                              <p class="progress__text">WordPress, the premier free open-source blogging utility, has gone through several upgrades in its life.</p>
+                          </div>
+                      </li>
+                  </ul>
+              </div>
+          </section>
+          <!-- Statistics End -->
 
-            <!-- Register Form-->
-            <section class="register">
-                <div class="container">
-                    <h2 class="heading heading--light">create an account</h2>
+          <!-- Register Form-->
+          <section class="register">
+              <div class="container">
+                  <h2 class="heading heading--light">create an account</h2>
 
-                    <form action="" class="register__form">
-                        <p class="register__text">sign up</p>
-                        <input type="text" class="register__input" placeholder="Email"/>
-                        <input type="password" class="register__input" placeholder="Password"/>
-                        <input type="password" class="register__input" placeholder="Confirm Password"/>
-                        <a class="login__link" href="javascript:void(0)">Already Have an account?</a>
-                        <button type="submit" class="btn btn-secondary">sign up</button>
-                    </form>
-                </div>
-            </section>
-            <!-- Register Form End -->
+                  <form action="" class="register__form">
+                      <p class="register__text">sign up</p>
+                      <input type="text" class="register__input" placeholder="Email"/>
+                      <input type="password" class="register__input" placeholder="Password"/>
+                      <input type="password" class="register__input" placeholder="Confirm Password"/>
+                      <a class="login__link" href="javascript:void(0)">Already Have an account?</a>
+                      <button type="submit" class="btn btn-secondary">sign up</button>
+                  </form>
+              </div>
+          </section>
+          <!-- Register Form End -->
         </main>
 
         <!-- Footer -->
@@ -312,7 +328,7 @@
             </div>
         </footer>
         <!-- Footer End -->
-
+        <script src="./index.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/html-inspector/0.8.2/html-inspector.js"></script>
     </body>
 </html>

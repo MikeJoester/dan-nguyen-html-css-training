@@ -11,8 +11,8 @@
 }
 
 .card-view {
-    width: 262px;
-    height: 372px;
+    max-width: 262px;
+    max-height: 372px;
     background: var(--primary-color);
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
     border-radius: 8px;
@@ -42,6 +42,7 @@
 }
 
 .card__price {
+    width: 100%;
     position: relative;
 }
 
@@ -86,4 +87,9 @@
 .price__value--num {
     color: var(--primary-color);
     font-size: var(--font-size-4xl);
+}
+
+/* Large devices (laptops/desktops) */
+@media only screen and (max-width: 1200px) {
+
 }
