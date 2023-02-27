@@ -75,11 +75,29 @@
 
 }
 
+/* Large devices (laptops/desktops) */
 @media only screen and (max-width: 1200px) {
   .btn {
     font-size: var(--font-size-xs);
     width: 148px;
     height: 40px;
+  }
+
+  .btn-clear {
+    width: 120px;
+    height: 32px;
+    border: 2px solid var(--cl-darksilver);
+    padding: 5px 11px 9px 11px;
+    margin: 0;
+  }
+
+  .btn-secondary--responsive {
+    width: 120px;
+    height: 32px;
+    background: transparent;
+    border: 2px solid var(--cl-darksilver);
+    padding: 5px 11px 9px 11px;
+    margin: 0;
   }
 }
 

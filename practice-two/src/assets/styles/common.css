@@ -44,14 +44,40 @@
     align-items: center;
 }
 
-@media only screen and (min-width: 577px) and (max-width: 768px) {
+/* Large devices (laptops/desktops) */
+@media only screen and (max-width: 1200px) {
   .container {
     --margin-val: 24px;
   }
+
+  .heading {
+    font-size: var(--font-size-tb);
+  }
+
+  .heading--md {
+    font-size: var(--font-size-md);
+  }
+
+  .heading--sm {
+    font-size: var(--font-size-xs);
+  }
 }
 
+/* Small devices (portrait tablets and large phones) */
 @media only screen and (max-width: 576px) {
   .container {
     --margin-val: 15px;
+  }
+
+  .heading {
+    font-size: var(--font-size-lg);
+  }
+
+  .heading--md {
+    font-size: var(--font-size-md);
+  }
+
+  .heading--sm {
+    font-size: var(--font-size-xs);
   }
 }

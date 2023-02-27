@@ -68,7 +68,6 @@
 }
 
 .progress-value--text-small {
-
     font: calc(var(--font-size-4xl) * .5)/var(--line-height-xx-lg) var(--font-primary);
     font-weight: var(--font-weight-mediumbold);
 }
@@ -93,4 +92,38 @@
     color: var(--cl-darksilver);
     font-weight: var(--font-weight-light);
     line-height: var(--line-height-md);
+}
+
+/* Large devices (laptops/desktops) */
+@media only screen and (max-width: 1200px) {
+  .progress-bar {
+    --process-diameter: 108px;
+  }
+
+  .progress-bar::before {
+    --process-diameter-delta: 7px;
+  }
+
+  .progress__title {
+    font-size: var(--font-size-xs);
+    line-height: var(--line-height-md);
+  }
+
+  .progress__text {
+    font-size: var(--font-size-xs);
+    line-height: var(--line-height-sm);
+    width: 140px;
+  }
+
+  .progress-value--text {
+    font-size: var(--font-size-xx-lg);
+  }
+
+  .progress-value--text-small {
+    font-size: var(--font-size-md);
+  }
+
+  .progress__desc {
+    gap: 8px;
+  }
 }

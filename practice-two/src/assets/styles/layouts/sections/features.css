@@ -37,18 +37,18 @@
 }
 
 .img-container {
-  /* width: 100%; */
-  overflow-y: hidden;
+  width: 100%;
 }
 
 .features__img {
-  width: 100%;
+  object-fit: cover;
+  overflow: hidden;
 }
 
 .item__text {
     color: var(--cl-darksilver);
     font-size: var(--font-size-sm);
-    width: 262px;
+    max-width: 262px;
 }
 
 .item__text--title {
@@ -61,4 +61,29 @@
 .item__text--details {
     font-weight: 300;
     line-height: var(--line-height-md);
+}
+
+/* Medium devices (landscape tablets) */
+@media only screen and (max-width: 768px) {
+
+  .item__text {
+    font-size: var(--font-size-xs);
+  }
+
+  .item__text--title {
+    font-size: var(--font-size-xs);
+  }
+}
+
+/* Small devices (portrait tablets and large phones) */
+@media only screen and (max-width: 576px) {
+  .features__details {
+    flex-direction: column;
+    margin-top: 36px;
+  }
+
+  .features__img {
+    width: 100%;
+    height: auto;
+  }
 }
