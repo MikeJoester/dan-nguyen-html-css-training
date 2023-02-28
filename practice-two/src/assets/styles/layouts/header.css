@@ -25,7 +25,6 @@
     text-transform: capitalize;
     color: var(--primary-color);
     font-weight: var(--font-weight-mediumbold);
-    font-size: var(--font-size-xxx-lg);
 }
 
 .header-details__desc {
@@ -41,15 +40,6 @@
     gap: 20px;
     padding: 0;
   }
-
-  .header-details__text {
-    font-size: var(--font-size-tb);
-  }
-
-  .header-details__desc {
-    font-size: var(--font-size-xs);
-    line-height: var(--line-height-sm);
-  }
 }
 
 /* Small devices (portrait tablets and large phones) */
@@ -64,7 +54,6 @@
   }
 
   .header-details__text {
-    font-size: var(--font-size-mb);
     line-height: var(--line-height-md);
   }
 }

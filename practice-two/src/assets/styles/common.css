@@ -9,6 +9,10 @@
     font-size: var(--font-size-xxx-lg);
 }
 
+.text--sm {
+  font-size: var(--font-size-sm);
+}
+
 .heading--light {
     padding-bottom: 36px;
     color: var(--primary-color);
@@ -16,11 +20,11 @@
 }
 
 .heading--md {
-    padding-top: 32px;
-    text-transform: uppercase;
     font-size: var(--font-size-md);
-    line-height: var(--line-height-lg);
-    letter-spacing: 1px;
+}
+
+.heading--xl {
+  font-size: var(--font-size-xxx-lg);
 }
 
 .heading--sm {
@@ -54,12 +58,20 @@
     font-size: var(--font-size-tb);
   }
 
-  .heading--md {
-    font-size: var(--font-size-md);
-  }
-
   .heading--sm {
     font-size: var(--font-size-xs);
+  }
+
+  .heading--md  {
+    font-size: var(--font-size-h-xs);
+  }
+
+  .heading--xl {
+    font-size: var(--font-size-tb);
+  }
+
+  .text--sm {
+    font-size: var(--font-size-xs)!important;
   }
 }
 
@@ -73,11 +85,7 @@
     font-size: var(--font-size-lg);
   }
 
-  .heading--md {
-    font-size: var(--font-size-md);
-  }
-
-  .heading--sm {
-    font-size: var(--font-size-xs);
+  .heading--xl {
+    font-size: var(--font-size-mb);
   }
 }
