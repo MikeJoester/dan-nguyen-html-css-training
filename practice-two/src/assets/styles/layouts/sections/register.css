@@ -86,4 +86,13 @@
   .register__input {
     width: 220px;
   }
+
+  .register__input--subscribe {
+    width: 50%;
+    padding: 0px 0px 0px 10px;
+  }
+
+  .register__input--subscribe::placeholder {
+    font-size: var(--font-size-xs);
+  }
 }

@@ -23,12 +23,15 @@
     font-size: var(--font-size-md);
 }
 
+.heading--uc {
+    text-transform: uppercase;
+}
+
 .heading--xl {
   font-size: var(--font-size-xxx-lg);
 }
 
 .heading--sm {
-    padding-top: 22px;
     font-size: var(--font-size-sm);
     line-height: var(--line-height-md);
     font-weight: var(--font-weight-mediumlight);
@@ -63,7 +66,7 @@
   }
 
   .heading--md  {
-    font-size: var(--font-size-h-xs);
+    font-size: var(--font-size-h-xs)!important;
   }
 
   .heading--xl {

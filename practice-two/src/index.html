@@ -13,9 +13,8 @@
         <header class="header">
             <div class="container">
                 <nav class="navbar">
-                    <div class="navbar__logo">
-                        <a class="logo__text" href="javascript:void(0)">hofmann</a>
-                    </div>
+                    <a class="logo__text" href="javascript:void(0)">hofmann</a>
+
                     <ul class="navbar__nav">
                         <li class="nav__item">
                             <a href="javascript:void(0)" class="heading--md nav__link">mission</a>
@@ -152,7 +151,7 @@
               <div class="container">
                   <div class="features__heading">
                       <h2 class="heading">features</h2>
-                      <p class="heading heading--md">we're taking it to the next level</p>
+                      <p class="heading heading--md heading--uc">we're taking it to the next level</p>
                   </div>
 
                   <div class="features__details">
@@ -247,8 +246,8 @@
                   <form action="" class="register__form">
                       <p class="register__text">sign up</p>
                       <input type="text" class="register__input" placeholder="Email"/>
-                      <input type="password" class="register__input" placeholder="Password"/>
-                      <input type="password" class="register__input" placeholder="Confirm Password"/>
+                      <input type="password" class="register__input" placeholder="Password" autocomplete="on"/>
+                      <input type="password" class="register__input" placeholder="Confirm Password" autocomplete="on"/>
                       <a class="login__link" href="javascript:void(0)">Already Have an account?</a>
                       <button type="submit" class="btn btn-secondary">sign up</button>
                   </form>
@@ -262,7 +261,7 @@
             <div class="container">
                 <div class="footer-main">
                     <div class="footer-info">
-                        <ul class="info__list">
+                        <ul class="info__list info__list--visible">
                             <li>
                               <a class="heading--md info__item" href="javascript:void(0)" >hotels</a>
                             </li>
@@ -287,32 +286,62 @@
                         <ul class="info__list">
                             <li class="social__icon">
                               <a href="javascript:void(0)">
-                                <img src="./assets/images/pinterest.svg" title="Pinterest" class="icon__img"/>
+                                <img src="./assets/images/pinterest.svg" alt="Pinterest" class="icon__img"/>
                               </a>
                             </li>
 
                             <li class="social__icon">
                               <a href="javascript:void(0)">
-                                <img src="./assets/images/twitter.svg" title="Twitter" class="icon__img"/>
+                                <img src="./assets/images/twitter.svg" alt="Twitter" class="icon__img"/>
                               </a>
                             </li>
 
                             <li class="social__icon">
                               <a href="javascript:void(0)">
-                                <img src="./assets/images/facebook.svg" title="Facebook" class="icon__img"/>
+                                <img src="./assets/images/facebook.svg" alt="Facebook" class="icon__img"/>
                               </a>
                             </li>
                         </ul>
                     </div>
                     <div class="footer-line"></div>
                     <div class="footer-info">
-                        <address class="text--sm contacts">
+                        <address class="text--sm contacts contacts--desktop">
                             <a href="tel:606-956-2811" class="phone-number">606-956-2811</a>
                             8194 Ullrich Groves Suite 986<br>
                             592 Missouri Park Suite 818<br>
                             <br>
                             Copyright © 2016  Goldenfox
                         </address>
+
+                        <address class="text--sm contacts contacts--mobile">
+                          <a href="tel:606-956-2811" class="phone-number">123-127-3900</a>
+                          4081 Maximillian Rue Suite 057<br>
+                          info@hofmannui.net<br>
+                          <br>
+                          Copyright © 2016  Goldenfox
+                      </address>
+
+                        <ul class="info__list info__list--hidden">
+                          <li>
+                            <a class="heading--md info__item" href="javascript:void(0)" >hotels</a>
+                          </li>
+
+                          <li>
+                            <a class="heading--md info__item" href="javascript:void(0)" >services</a>
+                          </li>
+
+                          <li>
+                            <a class="heading--md info__item" href="javascript:void(0)" >airlines</a>
+                          </li>
+
+                          <li>
+                            <a class="heading--md info__item" href="javascript:void(0)" >vacations</a>
+                          </li>
+
+                          <li>
+                            <a class="heading--md info__item" href="javascript:void(0)" >find more</a>
+                          </li>
+                        </ul>
 
                         <ul class="contacts contacts--subscribe">
                             <li class="text--sm">Hoffman UI Kit was made to help you quickly create beautiful layouts of responsive websites.</li>
@@ -330,5 +359,6 @@
         <!-- Footer End -->
         <script src="./index.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/html-inspector/0.8.2/html-inspector.js"></script>
+        <script> HTMLInspector.inspect() </script>
     </body>
 </html>

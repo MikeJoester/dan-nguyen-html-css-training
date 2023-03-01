@@ -121,4 +121,8 @@
   .btn-hidden:hover {
     background: none;
   }
+
+  .btn-dark {
+    width: 50%;
+  }
 }

@@ -9,13 +9,13 @@
     font-size: var(--font-size-xxx-lg);
 }
 
-.heading--light {
+.heading-light {
     padding-bottom: 36px;
     color: var(--primary-color);
     line-height: var(--line-height-xx-lg);
 }
 
-.heading--md {
+.heading-md {
     padding-top: 32px;
     text-transform: uppercase;
     font-size: var(--font-size-md);
@@ -23,7 +23,7 @@
     letter-spacing: 1px;
 }
 
-.heading--sm {
+.heading-sm {
     padding-top: 22px;
     font-size: var(--font-size-sm);
     line-height: var(--line-height-md);
