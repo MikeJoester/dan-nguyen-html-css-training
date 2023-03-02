@@ -17,6 +17,10 @@
   #main
 \*------------------------------------*/
 
+html {
+  font-size: var(--font-size-sm);
+}
+
 body {
   font-family: var(--font-primary);
   display: flex;
@@ -32,3 +36,4 @@ a {
   text-decoration: none;
   color: var(--primary-color);
 }
+

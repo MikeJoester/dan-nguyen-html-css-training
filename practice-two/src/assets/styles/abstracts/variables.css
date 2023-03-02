@@ -42,11 +42,13 @@
   /*------------------------------------*\
   #Font Size
   \*------------------------------------*/
+  --font-size-sm: 16px;
+  --font-size-tb: ;
+  --font-size-mb: ;
   --font-size-xs: 11px;
   --font-size-h-xs: 12px;
   --font-size-mb: 20px;
   --font-size-tb: 32px;
-  --font-size-sm: 16px;
   --font-size-md: 18px;
   --font-size-lg: 24px;
   --font-size-x-lg: 30px;

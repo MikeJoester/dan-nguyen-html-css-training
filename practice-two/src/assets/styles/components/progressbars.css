@@ -2,7 +2,7 @@
   #Progress Bar
 \*------------------------------------*/
 
-.progress-bar {
+.progress__bar {
   --process-diameter: 204px;
   --process-degree: 90deg;
 
@@ -19,19 +19,19 @@
   justify-content: center;
 }
 
-.progress-bar--three-quarter {
+.progress__bar--three-quarter {
   --process-degree: 90deg;
 }
 
-.progress-bar--one-third {
+.progress__bar--one-third {
   --process-degree: 230deg;
 }
 
-.progress-bar--custom {
+.progress__bar--custom {
   --process-degree: 45deg;
 }
 
-.progress-bar::before {
+.progress__bar::before {
   --process-diameter-delta: 15px;
   --process-diameter-before: calc(
     var(--process-diameter) - var(--process-diameter-delta)
@@ -45,7 +45,7 @@
   background-color: #fff;
 }
 
-.progress-bar::after {
+.progress__bar::after {
   --border-thickness: 2px;
   --process-diameter-after: calc(
     var(--process-diameter) - var(--border-thickness)
@@ -61,7 +61,7 @@
   border-radius: 50%;
 }
 
-.progress-value {
+.progress__value {
   position: relative;
   display: flex;
   flex-direction: row;
@@ -69,18 +69,18 @@
   color: var(--cl-darksilver);
 }
 
-.progress-value--text {
+.progress__value--text {
   font: var(--font-size-4xl) / var(--line-height-xx-lg) var(--font-primary);
   font-weight: var(--font-weight-mediumbold);
 }
 
-.progress-value--text-small {
+.progress__value--text-small {
   font: calc(var(--font-size-4xl) * 0.5) / var(--line-height-xx-lg)
     var(--font-primary);
   font-weight: var(--font-weight-mediumbold);
 }
 
-.progress__desc {
+.progress__body {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -104,11 +104,11 @@
 
 /* Large devices (laptops/desktops) */
 @media only screen and (max-width: 1200px) {
-  .progress-bar {
+  .progress__bar {
     --process-diameter: 108px;
   }
 
-  .progress-bar::before {
+  .progress__bar::before {
     --process-diameter-delta: 7px;
   }
 
@@ -123,15 +123,15 @@
     width: 140px;
   }
 
-  .progress-value--text {
+  .progress__value--text {
     font-size: var(--font-size-xx-lg);
   }
 
-  .progress-value--text-small {
+  .progress__value--text-small {
     font-size: var(--font-size-md);
   }
 
-  .progress__desc {
+  .progress__body {
     gap: 8px;
   }
 }

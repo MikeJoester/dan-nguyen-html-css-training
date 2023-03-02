@@ -10,7 +10,7 @@
   padding: 42px 0px 42px 0px;
 }
 
-.footer-main {
+.footer__main {
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -97,7 +97,7 @@
 
 /* Large devices (laptops/desktops) */
 @media only screen and (max-width: 1200px) {
-  .footer-main {
+  .footer__main {
     gap: 1rem;
   }
 

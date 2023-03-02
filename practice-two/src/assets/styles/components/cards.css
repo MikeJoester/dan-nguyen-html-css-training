@@ -2,7 +2,7 @@
   #Cards
 \*------------------------------------*/
 
-.card {
+.cards {
   margin-top: 76px;
   width: 100%;
   display: flex;
@@ -10,7 +10,7 @@
   gap: 31px;
 }
 
-.card-view {
+.card {
   max-width: 262px;
   min-width: 140px;
   max-height: 372px;
@@ -24,16 +24,16 @@
   gap: 17px;
 }
 
-.card-view--recommend {
+.card--recommend {
   box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
 }
 
-.card--statistics {
+.cards--statistics {
   gap: 0px;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
-.card-view--statistics {
+.card--statistics {
   height: 100%;
   box-shadow: none;
   background: transparent;
@@ -42,9 +42,16 @@
   gap: 25px;
 }
 
-.card__price {
+.card__header {
   width: 100%;
   position: relative;
+}
+
+.card__body {
+  width: 100%;
+  position: relative;
+  color: var(--cl-darksilver);
+  line-height: var(--line-height-md);
 }
 
 .card__img {
@@ -81,12 +88,12 @@
   font-family: var(--font-primary);
 }
 
-.price__value--dollar {
+.price__currency {
   color: var(--primary-color);
   font-size: var(--font-size-lg);
 }
 
-.price__value--num {
+.price__num {
   color: var(--primary-color);
   font-size: var(--font-size-4xl);
 }
@@ -97,7 +104,7 @@
     font-size: var(--font-size-xs);
   }
 
-  .card-view {
+  .card {
     min-width: 158px;
     padding-bottom: 24px;
     gap: 7px;
@@ -114,31 +121,18 @@
 
 /* Medium devices (landscape tablets) */
 @media only screen and (max-width: 767px) {
-  .card--options {
-    display: grid;
-    grid-template-columns: repeat(2, auto);
-    grid-template-rows: repeat(2, auto);
+  .card {
+    flex: wrap;
   }
 }
 
 /* Small devices (portrait tablets and large phones) */
 @media only screen and (max-width: 576px) {
-  .card--options {
-    gap: 15px;
-  }
-
-  .card--statistics {
-    flex-direction: column;
-    align-items: center;
-    margin-top: 30px;
-    gap: 27px;
-  }
-
   .price__category {
     font-size: var(--font-size-xs);
   }
 
-  .card-view {
+  .card {
     min-width: 140px;
   }
 }
