@@ -9,13 +9,21 @@
     font-size: var(--font-size-xxx-lg);
 }
 
+<<<<<<< HEAD
 .heading-light {
+=======
+.heading--light {
+>>>>>>> 76e202b4d78968aafee62cc55e022563a312863a
     padding-bottom: 36px;
     color: var(--primary-color);
     line-height: var(--line-height-xx-lg);
 }
 
+<<<<<<< HEAD
 .heading-md {
+=======
+.heading--md {
+>>>>>>> 76e202b4d78968aafee62cc55e022563a312863a
     padding-top: 32px;
     text-transform: uppercase;
     font-size: var(--font-size-md);
@@ -23,7 +31,11 @@
     letter-spacing: 1px;
 }
 
+<<<<<<< HEAD
 .heading-sm {
+=======
+.heading--sm {
+>>>>>>> 76e202b4d78968aafee62cc55e022563a312863a
     padding-top: 22px;
     font-size: var(--font-size-sm);
     line-height: var(--line-height-md);
@@ -39,4 +51,8 @@
     width: calc(100% - 150px);
     flex-direction: column;
     align-items: center;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 76e202b4d78968aafee62cc55e022563a312863a

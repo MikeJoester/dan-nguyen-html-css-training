@@ -12,9 +12,15 @@
 }
 
 .register__form {
+<<<<<<< HEAD
     max-width: 360px;
     height: 384px;
     background:
+=======
+    width: 360px;
+    height: 384px;
+    background: 
+>>>>>>> 76e202b4d78968aafee62cc55e022563a312863a
         linear-gradient(var(--cl-darksilver), var(--cl-darksilver)),
         linear-gradient(224.09deg, rgba(195, 195, 195, 0.5) 5.13%, rgba(255, 255, 255, 7e-05) 90.88%);
     background-blend-mode: soft-light;
@@ -74,4 +80,8 @@
 
 .login__link:hover {
     text-decoration: underline;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 76e202b4d78968aafee62cc55e022563a312863a
