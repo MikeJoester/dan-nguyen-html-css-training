@@ -3,92 +3,92 @@
 \*------------------------------------*/
 
 .card {
-    margin-top: 76px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    gap: 31px;
+  margin-top: 76px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 31px;
 }
 
 .card-view {
-    max-width: 262px;
-    min-width: 140px;
-    max-height: 372px;
-    background: var(--primary-color);
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
-    border-radius: 8px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    gap: 17px;
+  max-width: 262px;
+  min-width: 140px;
+  max-height: 372px;
+  background: var(--primary-color);
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 17px;
 }
 
 .card-view--recommend {
-    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 .card--statistics {
-    gap: 0px;
-    justify-content: space-evenly;
+  gap: 0px;
+  justify-content: space-evenly;
 }
 
 .card-view--statistics {
-    height: 100%;
-    box-shadow: none;
-    background: transparent;
-    border-radius: 0px;
-    justify-content: flex-start;
-    gap: 25px;
+  height: 100%;
+  box-shadow: none;
+  background: transparent;
+  border-radius: 0px;
+  justify-content: flex-start;
+  gap: 25px;
 }
 
 .card__price {
-    width: 100%;
-    position: relative;
+  width: 100%;
+  position: relative;
 }
 
 .card__img {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
 
 .price__details {
-    width: 100%;
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  width: 100%;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .price__category {
-    color: var(--primary-color);
-    font-size: var(--font-size-md);
-    font-weight: var(--font-weight-mediumbold);
-    letter-spacing: 1px;
-    text-transform: uppercase;
+  color: var(--primary-color);
+  font-size: var(--font-size-md);
+  font-weight: var(--font-weight-mediumbold);
+  letter-spacing: 1px;
+  text-transform: uppercase;
 }
 
 .price__value {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-    color: var(--primary-color);
-    font-weight: var(--font-weight-mediumbold);
-    font-family: var(--font-primary);
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  color: var(--primary-color);
+  font-weight: var(--font-weight-mediumbold);
+  font-family: var(--font-primary);
 }
 
 .price__value--dollar {
-    color: var(--primary-color);
-    font-size: var(--font-size-lg);
+  color: var(--primary-color);
+  font-size: var(--font-size-lg);
 }
 
 .price__value--num {
-    color: var(--primary-color);
-    font-size: var(--font-size-4xl);
+  color: var(--primary-color);
+  font-size: var(--font-size-4xl);
 }
 
 /* Large devices (laptops/desktops) */
@@ -142,4 +142,3 @@
     min-width: 140px;
   }
 }
-

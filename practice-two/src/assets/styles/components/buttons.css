@@ -3,56 +3,56 @@
 \*------------------------------------*/
 
 .btn {
-    width: 180px;
-    height: 48px;
-    color: var(--primary-color);
-    text-transform: uppercase;
-    background-color: transparent;
-    border: 2px solid var(--primary-color);
-    border-radius: 50px;
-    font: var(--font-size-sm)/20px var(--font-primary);
-    letter-spacing: 1px;
-    cursor: pointer;
+  width: 180px;
+  height: 48px;
+  color: var(--primary-color);
+  text-transform: uppercase;
+  background-color: transparent;
+  border: 2px solid var(--primary-color);
+  border-radius: 50px;
+  font: var(--font-size-sm) / 20px var(--font-primary);
+  letter-spacing: 1px;
+  cursor: pointer;
 }
 
 .btn:hover {
-    color: #000;
-    background-color: var(--primary-color);
-    transition: 0.3s;
+  color: #000;
+  background-color: var(--primary-color);
+  transition: 0.3s;
 }
 
 .btn:active {
-    background-color: var(--border-color);
-    transition: none;
+  background-color: var(--border-color);
+  transition: none;
 }
 
 .btn-secondary {
-    border-color: transparent;
-    background-color: var(--secondary-color);
-    color: #000;
+  border-color: transparent;
+  background-color: var(--secondary-color);
+  color: #000;
 }
 
 .btn-secondary:hover {
-    background-color: var(--secondary-dark);
+  background-color: var(--secondary-dark);
 }
 
 .btn-secondary:active {
-    background-color: var(--border-color);
+  background-color: var(--border-color);
 }
 
 .btn-clear {
-    margin-bottom: 36px;
-    color: var(--cl-darksilver);
+  margin-bottom: 36px;
+  color: var(--cl-darksilver);
 }
 
 .btn-clear:hover {
-    background: transparent;
-    border: 2px solid var(--border-color);
+  background: transparent;
+  border: 2px solid var(--border-color);
 }
 
 .btn-clear:active {
-    background: var(--border-color);
-    border: 2px solid var(--title-color);
+  background: var(--border-color);
+  border: 2px solid var(--title-color);
 }
 
 /* .btn-secondary--card {
@@ -60,19 +60,18 @@
 } */
 
 .btn-dark {
-    background-color: var(--cl-darksilver);
-    width: 150px;
-    border-color: transparent;
-    border-radius: 4px;
+  background-color: var(--cl-darksilver);
+  width: 150px;
+  border-color: transparent;
+  border-radius: 4px;
 }
 
 .btn-dark:hover {
-    background-color: var(--border-color);
+  background-color: var(--border-color);
 }
 
 .btn-hidden {
   display: none;
-
 }
 
 /* Large devices (laptops/desktops) */

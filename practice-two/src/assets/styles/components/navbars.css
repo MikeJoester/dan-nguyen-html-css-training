@@ -3,28 +3,28 @@
 \*------------------------------------*/
 
 .navbar {
-    width: 100%;
-    display: flex;
-    text-transform: uppercase;
-    justify-content: space-between;
-    align-items: center;
+  width: 100%;
+  display: flex;
+  text-transform: uppercase;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .logo__text {
-    color: var(--secondary-color);
-    font-weight: var(--font-weight-mediumbold);
-    font-size: var(--font-size-xx-lg);
+  color: var(--secondary-color);
+  font-weight: var(--font-weight-mediumbold);
+  font-size: var(--font-size-xx-lg);
 }
 
 .navbar__nav {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .nav__item {
-    color: var(--primary-color);
-    font-weight: var(--font-weight-mediumbold);
-    margin-left: 48px;
+  color: var(--primary-color);
+  font-weight: var(--font-weight-mediumbold);
+  margin-left: 48px;
 }
 
 .nav__item--btn {
@@ -36,8 +36,8 @@
 }
 
 .nav__link:hover {
-    color: var(--secondary-color);
-    transition: 0.3s;
+  color: var(--secondary-color);
+  transition: 0.3s;
 }
 
 .sub-menu {
@@ -51,7 +51,8 @@
   justify-content: space-around;
   width: 100%;
   transform: translateY(-2em);
-  transition: all 0.3s ease-in-out 0s, visibility 0s linear 0.3s, z-index 0s linear 0.01s;
+  transition: all 0.3s ease-in-out 0s, visibility 0s linear 0.3s,
+    z-index 0s linear 0.01s;
 }
 
 /* Medium devices (landscape tablets) */

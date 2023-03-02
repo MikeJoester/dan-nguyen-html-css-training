@@ -3,34 +3,34 @@
 \*------------------------------------*/
 
 .header {
-    padding-top: 54px;
-    padding-bottom: 176px;
-    background: url('../../images/header_bg.png') no-repeat;
-    background-size: cover;
-    height: auto;
-    display: flex;
-    justify-content: center;
+  padding-top: 54px;
+  padding-bottom: 176px;
+  background: url("../../images/header_bg.png") no-repeat;
+  background-size: cover;
+  height: auto;
+  display: flex;
+  justify-content: center;
 }
 
 .header-details {
-    text-align: center;
-    display: flex;
-    gap: 30px;
-    flex-direction: column;
-    width: 555px;
-    align-items: center;
+  text-align: center;
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+  width: 555px;
+  align-items: center;
 }
 
 .header-details__text {
-    text-transform: capitalize;
-    color: var(--primary-color);
-    font-weight: var(--font-weight-mediumbold);
+  text-transform: capitalize;
+  color: var(--primary-color);
+  font-weight: var(--font-weight-mediumbold);
 }
 
 .header-details__desc {
-    font-size: var(--font-size-sm);
-    line-height: var(--line-height-md);
-    color: var(--primary-color);
+  font-size: var(--font-size-sm);
+  line-height: var(--line-height-md);
+  color: var(--primary-color);
 }
 
 /* Medium devices (landscape tablets) */

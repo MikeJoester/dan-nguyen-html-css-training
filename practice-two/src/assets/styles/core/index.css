@@ -2,15 +2,15 @@
   #Scrollbar
 \*------------------------------------*/
 ::-webkit-scrollbar {
-    width: var(--scrollbar-width);
+  width: var(--scrollbar-width);
 }
 
 ::-webkit-scrollbar-track {
-    background: var(--light-color);
+  background: var(--light-color);
 }
 
 ::-webkit-scrollbar-thumb {
-    background: var(--border-color);
+  background: var(--border-color);
 }
 
 /*------------------------------------*\
@@ -18,17 +18,17 @@
 \*------------------------------------*/
 
 body {
-    font-family: var(--font-primary);
-    display: flex;
-    flex-direction: column;
+  font-family: var(--font-primary);
+  display: flex;
+  flex-direction: column;
 }
 
 p {
-    font-family: var(--font-secondary);
-    color: var(--border-color);
+  font-family: var(--font-secondary);
+  color: var(--border-color);
 }
 
 a {
-    text-decoration: none;
-    color: var(--primary-color);
+  text-decoration: none;
+  color: var(--primary-color);
 }
