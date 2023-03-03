@@ -5,6 +5,5 @@
 .options {
   padding: 68px 0px 90px 0px;
   background-color: var(--light-color);
-  display: flex;
   justify-content: center;
 }

@@ -12,47 +12,47 @@
 <body>
   <!-- Header Section -->
   <header class="header">
-    <div class="container">
-      <nav class="navbar">
-        <a class="logo__text" href="javascript:void(0)">hofmann</a>
+    <nav class="navbar">
+      <a class="logo" href="javascript:void(0)">hofmann</a>
 
-        <ul class="navbar__nav">
-          <li class="nav__item">
-            <a href="javascript:void(0)" class="heading--md nav__link">mission</a>
-          </li>
-          <li class="nav__item">
-            <a href="javascript:void(0)" class="heading--md nav__link">services</a>
-          </li>
-          <li class="nav__item">
-            <a href="javascript:void(0)" class="heading--md nav__link">about</a>
-          </li>
-          <li class="nav__item">
-            <button type="button" class="btn">take a tour</button>
-          </li>
-        </ul>
-        <button type="button" class="btn btn-hidden" id="nav" onclick="setNav()" title="burger">
-          <img src="./assets/images/hamburger-menu.svg" alt="Burger" />
-        </button>
-      </nav>
-      <ul class="sub-menu" id="nav-dropdown">
-        <li class="nav__item nav__item--dropdown">
+      <ul class="navbar__nav">
+        <li class="nav__item">
           <a href="javascript:void(0)" class="heading--md nav__link">mission</a>
         </li>
-        <li class="nav__item nav__item--dropdown">
+        <li class="nav__item">
           <a href="javascript:void(0)" class="heading--md nav__link">services</a>
         </li>
-        <li class="nav__item nav__item--dropdown">
+        <li class="nav__item">
           <a href="javascript:void(0)" class="heading--md nav__link">about</a>
         </li>
-        <li class="nav__item nav__item--dropdown">
+        <li class="nav__item">
           <button type="button" class="btn">take a tour</button>
         </li>
       </ul>
-      <section class="header-details">
-        <h1 class="heading--xl header-details__text">
+      <button type="button" class="btn btn-hidden" id="nav" onclick="setNav()" title="burger">
+        <img src="./assets/images/hamburger-menu.svg" alt="Burger" />
+      </button>
+    </nav>
+    <ul class="sub-menu" id="nav-dropdown">
+      <li class="nav__item nav__item--dropdown">
+        <a href="javascript:void(0)" class="heading--md nav__link">mission</a>
+      </li>
+      <li class="nav__item nav__item--dropdown">
+        <a href="javascript:void(0)" class="heading--md nav__link">services</a>
+      </li>
+      <li class="nav__item nav__item--dropdown">
+        <a href="javascript:void(0)" class="heading--md nav__link">about</a>
+      </li>
+      <li class="nav__item nav__item--dropdown">
+        <button type="button" class="btn">take a tour</button>
+      </li>
+    </ul>
+    <div class="container">
+      <section class="header__body">
+        <h1 class="header__h1 heading--2xl">
           what makes a hotel boutique
         </h1>
-        <p class="text--sm header-details__desc">
+        <p class="header__text text--sm">
           As conscious traveling Paupers we must always be concerned about our
           dear Mother Earth. If you think about it, you travel across her
           face, and She is the host to your journey; without Her we could not
@@ -68,16 +68,16 @@
     <!-- Subscribing Plans -->
     <section class="options">
       <div class="container">
-        <h2 class="heading">Subscribing Plans</h2>
+        <h2 class="heading heading--2xl">Subscribing Plans</h2>
         <div class="cards">
           <div class="card">
             <div class="card__header">
               <img src="./assets/images/card_free.png" alt="Freemium" class="card__img" />
               <div class="price__details">
-                <p class="price__category">freemium</p>
+                <p class="price__category heading--md">freemium</p>
                 <div class="price__value">
-                  <p class="price__currency">$</p>
-                  <p class="price__num">0</p>
+                  <p class="price__text heading--xl">$</p>
+                  <p class="price__text heading--4xl">0</p>
                 </div>
               </div>
             </div>
@@ -94,10 +94,10 @@
             <div class="card__header">
               <img src="./assets/images/card_startup.png" alt="Startup" class="card__img" />
               <div class="price__details">
-                <p class="price__category">start up</p>
+                <p class="price__category heading--md">start up</p>
                 <div class="price__value">
-                  <p class="price__currency">$</p>
-                  <p class="price__num">9</p>
+                  <p class="price__text heading--xl">$</p>
+                  <p class="price__text heading--4xl">9</p>
                 </div>
               </div>
             </div>
@@ -114,10 +114,10 @@
             <div class="card__header">
               <img src="./assets/images/card_business.png" alt="Business" class="card__img" />
               <div class="price__details">
-                <p class="price__category">business</p>
+                <p class="price__category heading--md">business</p>
                 <div class="price__value">
-                  <p class="price__currency">$</p>
-                  <p class="price__num">29</p>
+                  <p class="price__text heading--xl">$</p>
+                  <p class="price__text heading--4xl">29</p>
                 </div>
               </div>
             </div>
@@ -136,10 +136,10 @@
             <div class="card__header">
               <img src="./assets/images/card_enterprise.png" alt="Enterprise" class="card__img" />
               <div class="price__details">
-                <p class="price__category">enterprise</p>
+                <p class="price__category heading--md">enterprise</p>
                 <div class="price__value">
-                  <p class="price__currency">$</p>
-                  <p class="price__num">49</p>
+                  <p class="price__text heading--xl">$</p>
+                  <p class="price__text heading--4xl">49</p>
                 </div>
               </div>
             </div>
@@ -159,20 +159,20 @@
     <!-- Features -->
     <section class="features">
       <div class="container">
-        <div class="features__heading">
-          <h2 class="heading">features</h2>
+        <div class="features__header">
+          <h2 class="heading heading--2xl">features</h2>
           <p class="heading heading--md heading--uc">
             we're taking it to the next level
           </p>
         </div>
 
-        <div class="features__details">
+        <div class="features__body">
           <div class="features__list">
             <div class="features__item">
               <img src="./assets/images/devices.svg" alt="Devices" />
-              <div class="item__text">
-                <p class="item__text--title">responsive layout</p>
-                <p class="item__text--details">
+              <div class="item__desc">
+                <p class="item__title heading heading--uc">responsive layout</p>
+                <p class="item__text text--sm">
                   The past few years have seen a dramatic change in the public
                   perception of cosmetic surgery.
                 </p>
@@ -180,9 +180,9 @@
             </div>
             <div class="features__item">
               <img src="./assets/images/diamond.svg" alt="Diamond" />
-              <div class="item__text">
-                <p class="item__text--title">pixel perfect</p>
-                <p class="item__text--details">
+              <div class="item__desc">
+                <p class="item__title heading heading--uc">pixel perfect</p>
+                <p class="item__text text--sm">
                   About 64% of all on-line teens say that do things online
                   that they wouldn’t want their parents to know about.
                 </p>
@@ -190,9 +190,9 @@
             </div>
             <div class="features__item">
               <img src="./assets/images/layers.svg" alt="Layers" />
-              <div class="item__text">
-                <p class="item__text--title">organized layers</p>
-                <p class="item__text--details">
+              <div class="item__desc">
+                <p class="item__title heading heading--uc">organized layers</p>
+                <p class="item__text text--sm">
                   Are you one of the thousands of Iphone owners who has no
                   idea that they can get free games for their Iphone?
                 </p>
@@ -211,8 +211,8 @@
     <!-- Statistics -->
     <section class="statistics">
       <div class="container">
-        <div class="features__heading">
-          <h2 class="heading">stunning results</h2>
+        <div class="features__header">
+          <h2 class="heading heading--2xl">stunning results</h2>
           <p class="heading--sm">
             Just look to the statistics we have generate the past year.
           </p>
@@ -272,7 +272,7 @@
     <!-- Register Form-->
     <section class="register">
       <div class="container">
-        <h2 class="heading heading--light">create an account</h2>
+        <h2 class="heading heading--2xl heading--light">create an account</h2>
 
         <form action="" class="register__form">
           <p class="register__text">sign up</p>
@@ -291,30 +291,30 @@
   <footer class="footer">
     <div class="container">
       <div class="footer__main">
-        <div class="footer-info">
-          <ul class="info__list info__list--visible">
+        <div class="footer__nav">
+          <ul class="contact__list contact__list--visible">
             <li>
-              <a class="heading--md info__item" href="javascript:void(0)">hotels</a>
+              <a class="heading--md contact__item" href="javascript:void(0)">hotels</a>
             </li>
 
             <li>
-              <a class="heading--md info__item" href="javascript:void(0)">services</a>
+              <a class="heading--md contact__item" href="javascript:void(0)">services</a>
             </li>
 
             <li>
-              <a class="heading--md info__item" href="javascript:void(0)">find more</a>
+              <a class="heading--md contact__item" href="javascript:void(0)">find more</a>
             </li>
 
             <li>
-              <a class="heading--md info__item" href="javascript:void(0)">airlines</a>
+              <a class="heading--md contact__item" href="javascript:void(0)">airlines</a>
             </li>
 
             <li>
-              <a class="heading--md info__item" href="javascript:void(0)">vacations</a>
+              <a class="heading--md contact__item" href="javascript:void(0)">vacations</a>
             </li>
           </ul>
 
-          <ul class="info__list">
+          <ul class="contact__list">
             <li class="social__icon">
               <a href="javascript:void(0)">
                 <img src="./assets/images/pinterest.svg" alt="Pinterest" class="icon__img" />
@@ -335,8 +335,8 @@
           </ul>
         </div>
         <div class="footer-line"></div>
-        <div class="footer-info">
-          <address class="text--sm contacts contacts--desktop">
+        <div class="contacts">
+          <address class="text--sm contact contact--desktop">
             <a href="tel:606-956-2811" class="phone-number">606-956-2811</a>
             8194 Ullrich Groves Suite 986<br />
             592 Missouri Park Suite 818<br />
@@ -344,7 +344,7 @@
             Copyright © 2016 Goldenfox
           </address>
 
-          <address class="text--sm contacts contacts--mobile">
+          <address class="text--sm contact contact--mobile">
             <a href="tel:606-956-2811" class="phone-number">123-127-3900</a>
             4081 Maximillian Rue Suite 057<br />
             info@hofmannui.net<br />
@@ -352,29 +352,29 @@
             Copyright © 2016 Goldenfox
           </address>
 
-          <ul class="info__list info__list--hidden">
+          <ul class="contact__list contact__list--hidden">
             <li>
-              <a class="heading--md info__item" href="javascript:void(0)">hotels</a>
+              <a class="heading--md contact__item" href="javascript:void(0)">hotels</a>
             </li>
 
             <li>
-              <a class="heading--md info__item" href="javascript:void(0)">services</a>
+              <a class="heading--md contact__item" href="javascript:void(0)">services</a>
             </li>
 
             <li>
-              <a class="heading--md info__item" href="javascript:void(0)">airlines</a>
+              <a class="heading--md contact__item" href="javascript:void(0)">airlines</a>
             </li>
 
             <li>
-              <a class="heading--md info__item" href="javascript:void(0)">vacations</a>
+              <a class="heading--md contact__item" href="javascript:void(0)">vacations</a>
             </li>
 
             <li>
-              <a class="heading--md info__item" href="javascript:void(0)">find more</a>
+              <a class="heading--md contact__item" href="javascript:void(0)">find more</a>
             </li>
           </ul>
 
-          <ul class="contacts contacts--subscribe">
+          <ul class="contact contact--subscribe">
             <li class="text--sm">
               Hoffman UI Kit was made to help you quickly create beautiful
               layouts of responsive websites.
@@ -393,6 +393,7 @@
     </div>
   </footer>
   <!-- Footer End -->
+
   <script src="./index.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/html-inspector/0.8.2/html-inspector.js"></script>
   <script>
