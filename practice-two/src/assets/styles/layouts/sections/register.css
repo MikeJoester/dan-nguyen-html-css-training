@@ -12,10 +12,9 @@
 }
 
 .register__form {
-  max-width: 360px;
-  min-width: 262px;
-  height: 384px;
-  padding: 24px 52px 24px 52px;
+  width: auto;
+  height: auto;
+  padding: 1.5rem 3.25rem 1.5rem 3.25rem;
   background: linear-gradient(var(--cl-darksilver), var(--cl-darksilver)),
     linear-gradient(
       224.09deg,
@@ -29,14 +28,12 @@
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  gap: 1.5rem;
 }
 
 .register__text {
   color: var(--secondary-color);
   text-transform: uppercase;
-  font-size: var(--font-size-md);
-  line-height: var(--line-height-lg);
-  font-weight: var(--font-weight-mediumbold);
   letter-spacing: 1px;
 }
 
@@ -45,15 +42,14 @@
   background: var(--input-bg);
   border: 1px solid var(--input-border);
   mix-blend-mode: normal;
-  padding: 10px 0px 10px 15px;
-  font-size: 14px;
-  width: 256px;
+  padding: 0.625rem 0px 0.625rem 1rem;
+  font-size: 0.875rem;
+  width: 100%;
   height: auto;
 }
 
 .register__input--subscribe {
   align-self: stretch;
-  width: auto;
   height: auto;
   background-color: var(--light-color);
 }
@@ -81,21 +77,17 @@
 }
 
 /* Small devices (portrait tablets and large phones) */
-@media only screen and (max-width: 576px) {
-  .register__form {
-    padding: 20px;
-  }
+@media only screen and (min-width: 320px) {
+}
 
-  .register__input {
-    width: 220px;
-  }
+/* Small devices (portrait tablets and large phones) */
+@media only screen and (min-width: 576px) {
+}
 
-  .register__input--subscribe {
-    width: 50%;
-    padding: 0px 0px 0px 10px;
-  }
+/* Medium devices (landscape tablets) */
+@media only screen and (min-width: 768px) {
+}
 
-  .register__input--subscribe::placeholder {
-    font-size: var(--font-size-xs);
-  }
+/* Large devices (laptops/desktops) */
+@media only screen and (min-width: 1200px) {
 }

@@ -24,52 +24,21 @@
   transition: none;
 }
 
-.btn-secondary {
-  border-color: transparent;
-  background-color: var(--secondary-color);
-  padding: 1rem 2.5rem;
-  color: var(--title-color);
-}
-
-.btn-secondary:hover {
-  background-color: var(--secondary-dark);
-}
-
-.btn-secondary:active {
-  background-color: var(--border-color);
-}
-
-.btn-clear {
-  margin-bottom: 36px;
-  color: var(--cl-darksilver);
-}
-
-.btn-clear:hover {
-  background: transparent;
-  border: 2px solid var(--border-color);
-}
-
-.btn-clear:active {
-  background: var(--border-color);
-  border: 2px solid var(--title-color);
-}
-
-.btn-dark {
-  background-color: var(--cl-darksilver);
-  width: 150px;
-  border-color: transparent;
-  border-radius: 4px;
-}
-
-.btn-dark:hover {
-  background-color: var(--border-color);
-}
-
 /* Small devices (portrait tablets and large phones) */
 @media only screen and (min-width: 320px) {
   .btn {
     font-size: 0.6875rem;
     padding: 0.5625rem 0.875rem;
+  }
+
+  .btn-clear {
+    border: 2px solid var(--cl-darksilver);
+    color: var(--cl-darksilver);
+  }
+
+  .btn-secondary--responsive {
+    color: var(--cl-darksilver);
+    border: 2px solid var(--cl-darksilver);
   }
 
   .btn-hidden {
@@ -103,12 +72,18 @@
   }
 }
 
-
 /* Medium devices (landscape tablets) */
 @media only screen and (min-width: 768px) {
   .btn {
     font-size: 0.6875rem;
     padding: 0.75rem 1.5rem;
+  }
+
+  .btn-clear {
+    border: 2px solid var(--cl-darksilver);
+    color: var(--cl-darksilver);
+    padding: 0.5rem 1rem;
+    margin: 0;
   }
 }
 
@@ -119,19 +94,47 @@
     padding: 1rem 2rem;
   }
 
-  .btn-clear {
-    border: 2px solid var(--cl-darksilver);
-    padding: 0.5rem 1rem;
-    margin: 0;
-  }
-
   .btn-hidden {
     display: none;
   }
 
-  .btn-secondary--responsive {
-    background: transparent;
-    border: 2px solid var(--cl-darksilver);
-    padding: 0.5rem 1rem;
+  .btn-secondary {
+    border-color: transparent;
+    background-color: var(--secondary-color);
+    padding: 1rem 2.5rem;
+    color: var(--title-color);
+  }
+
+  .btn-secondary:hover {
+    background-color: var(--secondary-dark);
+  }
+
+  .btn-secondary:active {
+    background-color: var(--border-color);
+  }
+
+  .btn-clear {
+    color: var(--cl-darksilver);
+    border: none;
+  }
+
+  .btn-clear:hover {
+    border: 2px solid var(--border-color);
+  }
+
+  .btn-clear:active {
+    background: var(--border-color);
+    border: 2px solid var(--title-color);
+  }
+
+  .btn-dark {
+    background-color: var(--cl-darksilver)!important;
+    border-color: transparent;
+    border-radius: 4px;
+    padding: 0.875rem;
+  }
+
+  .btn-dark:hover {
+    background-color: var(--border-color);
   }
 }

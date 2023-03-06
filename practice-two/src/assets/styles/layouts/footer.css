@@ -7,14 +7,12 @@
   justify-content: center;
   height: auto;
   background-color: var(--light-color);
-  padding: 42px 0px 42px 0px;
 }
 
 .footer__main {
   display: flex;
   flex-direction: column;
   width: 100%;
-  gap: 1.5rem;
 }
 
 .footer-line {
@@ -24,7 +22,6 @@
 
 .footer__nav {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
 }
 
@@ -44,10 +41,6 @@
   gap: 2rem;
 }
 
-.contact__list--hidden {
-  display: none;
-}
-
 .contact__item {
   text-transform: uppercase;
   color: var(--silver-color);
@@ -60,8 +53,6 @@
 }
 
 .social__icon {
-  width: 1.5rem;
-  height: 1.5rem;
   opacity: 0.5;
 }
 
@@ -79,18 +70,14 @@
 .contact {
   display: flex;
   color: var(--silver-color);
-  font: 1rem / 1.5rem var(--font-secondary);
+  font-family: var(--font-secondary);
+  line-height: 1.5rem;
   flex-direction: column;
   mix-blend-mode: normal;
   opacity: 0.5;
 }
 
-.contact--mobile {
-  display: none;
-}
-
 .contact--subscribe {
-  max-width: 360px;
   justify-content: space-between;
 }
 
@@ -101,9 +88,17 @@
   align-items: center;
 }
 
-/* Large devices (laptops/desktops) */
-@media only screen and (max-width: 1200px) {
+/* Small devices (portrait tablets and large phones) */
+@media only screen and (min-width: 320px) {
+  .footer {
+    padding: 1.75rem 0px 1.75rem 0px;
+  }
+
   .footer__main {
+    gap: 1.25rem;
+  }
+
+  .contact {
     gap: 1rem;
   }
 
@@ -115,14 +110,6 @@
     display: flex;
   }
 
-  .social__icon {
-    width: 17px;
-    height: 17px;
-  }
-}
-
-/* Small devices (portrait tablets and large phones) */
-@media only screen and (max-width: 576px) {
   .contact__list--hidden {
     display: flex;
     row-gap: 1rem;
@@ -147,18 +134,62 @@
     flex-wrap: wrap;
     justify-content: center;
   }
+}
 
-  .subscribe__form {
-    gap: 8px;
+/* Small devices (portrait tablets and large phones) */
+@media only screen and (min-width: 576px) {
+  .contact__list {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
   }
 
-  .contact {
-    line-height: var(--font-size-sm);
+  .contact__list--hidden {
+    display: none;
   }
 
-  .contact--subscribe {
-    max-width: 220px;
-    line-height: var(--font-size-sm);
-    gap: 20px;
+  .footer__nav {
+    flex-direction: row;
+  }
+
+  .contacts {
+    flex-direction: row;
+    text-align: left;
+  }
+}
+
+/* Medium devices (landscape tablets) */
+@media only screen and (min-width: 768px) {
+  .footer {
+    padding: 2.625rem 0px 2.625rem 0px;
+  }
+
+  .footer__main {
+    gap: 1rem;
+  }
+
+  .social__icon {
+    width: auto;
+    height: 1rem;
+  }
+}
+
+/* Large devices (laptops/desktops) */
+@media only screen and (min-width: 1200px) {
+  .footer__main {
+    gap: 1.5rem;
+  }
+
+  .social__icon {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+
+  .contact--mobile {
+    display: none;
+  }
+
+  .contact--desktop {
+    display: flex;
   }
 }
