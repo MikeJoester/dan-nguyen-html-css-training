@@ -23,11 +23,17 @@
 
 /* Small devices (portrait tablets and large phones) */
 @media only screen and (min-width: 320px) {
-  .container {
+  .container,
+  .container--features {
     max-width: 290px;
   }
 
-  .text--sm {
+  .container--features {
+    overflow: hidden;
+  }
+
+  .text--sm,
+  ::placeholder {
     font-size: 0.6875rem;
     line-height: 1rem;
   }
@@ -36,6 +42,11 @@
     font-size: 2.25rem;
   }
 
+  .heading--uc {
+    text-transform: uppercase;
+  }
+
+  .heading,
   .heading--md,
   .heading--sm {
     font-size: 0.75rem;
@@ -51,7 +62,13 @@
 /* Small devices (portrait tablets and large phones) */
 @media only screen and (min-width: 576px) {
   .container {
-    max-width: 540px;
+    max-width: calc(100vw - 2rem);
+  }
+
+  .container--features {
+    max-width: 100%;
+    padding-left: 1.5rem;
+    overflow: hidden;
   }
 
   .heading--2xl {
@@ -63,14 +80,20 @@
 /* Medium devices (landscape tablets) */
 @media only screen and (min-width: 768px) {
   .container {
-    max-width: 720px;
+    max-width: calc(100vw - 3rem);
   }
 }
 
 /* Large devices (laptops/desktops) */
 @media only screen and (min-width: 1200px) {
-  .container {
+  .container,
+  .container--features {
     max-width: 1140px;
+  }
+
+  .container--features {
+    padding: 0;
+    overflow: visible;
   }
 
   .text--sm {
@@ -96,9 +119,5 @@
 
   .heading--4xl {
     font-size: 4rem;
-  }
-
-  .heading--uc {
-    text-transform: uppercase;
   }
 }

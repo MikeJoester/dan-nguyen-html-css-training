@@ -17,6 +17,10 @@
   #main
 \*------------------------------------*/
 
+* {
+  box-sizing: border-box;
+}
+
 html {
   font-size: var(--font-size-sm);
 }

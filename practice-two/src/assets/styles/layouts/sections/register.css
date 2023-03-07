@@ -78,16 +78,28 @@
 
 /* Small devices (portrait tablets and large phones) */
 @media only screen and (min-width: 320px) {
+  .register__input--subscribe {
+    padding: 0 0 0 0.625rem;
+    margin-right: 0.5rem;
+  }
 }
 
 /* Small devices (portrait tablets and large phones) */
 @media only screen and (min-width: 576px) {
+  .register__input--subscribe {
+    padding: 0.3125rem 0.625rem;
+    margin: 0;
+  }
 }
 
 /* Medium devices (landscape tablets) */
 @media only screen and (min-width: 768px) {
+
 }
 
 /* Large devices (laptops/desktops) */
 @media only screen and (min-width: 1200px) {
+  .register__input--subscribe {
+    padding: 1.125rem 0.625rem;
+  }
 }
