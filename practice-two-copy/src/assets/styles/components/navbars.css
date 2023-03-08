@@ -1,0 +1,118 @@
+/*------------------------------------*\
+  #Navigation Bar
+\*------------------------------------*/
+
+.navbar {
+  width: calc(100vw - var(--delta--val));
+  text-transform: uppercase;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: var(--secondary-color);
+  font-weight: var(--font-weight-mediumbold);
+}
+
+.nav__item {
+  color: var(--primary-color);
+  font-weight: var(--font-weight-mediumbold);
+}
+
+.nav__link {
+  text-transform: uppercase;
+}
+
+.nav__link:hover {
+  color: var(--secondary-color);
+  transition: 0.3s;
+}
+
+.sub-menu {
+  visibility: hidden;
+  padding: 1.25rem 0px 1.25rem 0px;
+  width: 100%;
+  text-transform: uppercase;
+  opacity: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  transform: translateY(-2em);
+  transition: all 0.3s ease-in-out 0s, visibility 0s linear 0.3s,
+    z-index 0s linear 0.01s;
+}
+
+.enabled {
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(0%);
+  transition-delay: 0s, 0s, 0.3s;
+}
+
+/* Xtra Small devices (normal phones) */
+@media only screen and (min-width: 320px) {
+  .navbar {
+    --delta--val: 1rem;
+  }
+
+  .navbar__nav {
+    display: none;
+  }
+
+  .nav__item--dropdown {
+    margin: 0;
+  }
+}
+
+/* Small devices (portrait tablets and large phones) */
+@media only screen and (min-width: 576px) {
+  .navbar__nav {
+    display: flex;
+    align-items: center;
+  }
+
+  .nav__item {
+    margin-left: 35px;
+  }
+
+  .logo {
+    font-size: 1.5rem;
+  }
+
+  .nav__item {
+    margin-left: 2rem;
+  }
+
+  .enabled {
+    visibility: hidden;
+  }
+}
+
+/* Medium devices (landscape tablets) */
+@media only screen and (min-width: 768px) {
+  .navbar {
+    --delta--val: 1.5625rem;
+  }
+}
+
+/* Large devices (laptops/desktops) */
+@media only screen and (min-width: 1200px) {
+  .navbar {
+    --delta--val: 9.375rem;
+  }
+
+  .logo {
+    font-size: 2.25rem;
+  }
+
+  .nav__item {
+    margin-left: 3rem;
+  }
+
+  .nav__item--btn {
+    margin-left: 1.75rem;
+  }
+}

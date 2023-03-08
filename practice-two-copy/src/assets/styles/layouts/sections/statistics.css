@@ -1,0 +1,24 @@
+/*------------------------------------*\
+  #Statistics Section
+\*------------------------------------*/
+
+.statistics {
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+/* Large devices (laptops/desktops) */
+@media only screen and (min-width: 320px) {
+  .statistics {
+    padding: 2rem 0 2rem 0;
+  }
+}
+
+
+/* Large devices (laptops/desktops) */
+@media only screen and (min-width: 1200px) {
+  .statistics {
+    padding: 4.375rem 0 6.875rem 0;
+  }
+}

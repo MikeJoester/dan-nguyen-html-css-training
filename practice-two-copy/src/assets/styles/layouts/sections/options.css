@@ -1,0 +1,9 @@
+/*------------------------------------*\
+  #Options Section
+\*------------------------------------*/
+
+.options {
+  padding: 68px 0px 90px 0px;
+  background-color: var(--light-color);
+  justify-content: center;
+}

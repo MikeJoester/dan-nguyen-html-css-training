@@ -1,0 +1,42 @@
+/*------------------------------------*\
+  #Scrollbar
+\*------------------------------------*/
+::-webkit-scrollbar {
+  width: var(--scrollbar-width);
+}
+
+::-webkit-scrollbar-track {
+  background: var(--light-color);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--border-color);
+}
+
+/*------------------------------------*\
+  #main
+\*------------------------------------*/
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: var(--font-size-sm);
+}
+
+body {
+  font-family: var(--font-primary);
+  display: flex;
+  flex-direction: column;
+}
+
+p {
+  font-family: var(--font-secondary);
+  color: var(--border-color);
+}
+
+a {
+  text-decoration: none;
+  color: var(--primary-color);
+}

@@ -1,0 +1,58 @@
+/*------------------------------------*\
+  #Header
+\*------------------------------------*/
+
+.header {
+  padding-top: 54px;
+  padding-bottom: 176px;
+  background: url("../../images/header_bg.png") no-repeat;
+  background-size: cover;
+  height: auto;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header__body {
+  gap: 2rem;
+  flex-direction: column;
+  max-width: 555px;
+  text-align: center;
+  align-items: center;
+}
+
+.header__h1 {
+  text-transform: capitalize;
+  font-weight: var(--font-weight-mediumbold);
+  color: var(--primary-color);
+}
+
+.header__text {
+  color: var(--primary-color);
+}
+
+/* Small devices (portrait tablets and large phones) */
+@media only screen and (min-width: 320px) {
+  .header__body {
+    max-width: 190px;
+    gap: 1rem;
+  }
+}
+
+/* Small devices (portrait tablets and large phones) */
+@media only screen and (min-width: 576px) {
+  .header__body {
+    max-width: 345px;
+  }
+}
+
+/* Medium devices (landscape tablets) */
+@media only screen and (min-width: 768px) {
+}
+
+/* Large devices (laptops/desktops) */
+@media only screen and (min-width: 1200px) {
+  .header__body {
+    max-width: 555px;
+  }
+}
