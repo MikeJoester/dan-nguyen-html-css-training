@@ -3,7 +3,7 @@
 ## OVERVIEW
 This document provides an estimation for the HTML/CSS second practice plan:
 - Implement mobile, tablet and desktop responsive design for Practice 1’s website into the Practice 2;
-- Design: [Figma Design](https://www.figma.com/file/D65OHCz4xqAK1Y4FF4TLmaS2/Hofmann-UI-Kit?node-id=1%3A678&t=HlrdRFt68zczjv4b-0).
+- Design: [Figma Design](https://www.figma.com/file/D65OHCz4xqAK1Y4FF4TLmaS2/Hofmann-UI-Kit?node-id=0-1&t=F6ixMXRsFxeGvjk2-0).
 
 
 ## TARGETS

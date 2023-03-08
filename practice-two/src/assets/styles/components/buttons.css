@@ -50,9 +50,16 @@
     background-color: var(--border-color);
   }
 
-  .btn-clear, .btn-secondary--responsive {
+  .btn-clear,
+  .btn-secondary--responsive {
     width: 7.5rem;
     height: 2rem;
+  }
+
+  .btn-secondary--responsive {
+    color: var(--cl-darksilver);
+    background-color: transparent;
+    border: 2px solid var(--cl-darksilver);
   }
 
   .btn-hidden {
@@ -72,7 +79,7 @@
 
   .btn-dark {
     border-radius: 4px;
-    background-color: var(--cl-darksilver)!important;
+    background-color: var(--cl-darksilver) !important;
   }
 }
 
@@ -92,7 +99,8 @@
     margin: 0;
   }
 
-  .btn-clear, .btn-secondary--responsive {
+  .btn-clear,
+  .btn-secondary--responsive {
     width: 7.5rem;
     height: 2rem;
   }
@@ -103,12 +111,6 @@
 
   .btn-hidden {
     display: none;
-  }
-
-  .btn-secondary--responsive {
-    color: var(--cl-darksilver);
-    background-color: transparent;
-    border: 2px solid var(--cl-darksilver);
   }
 
   .btn-dark {
