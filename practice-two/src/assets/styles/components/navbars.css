@@ -52,7 +52,7 @@
   transition-delay: 0s, 0s, 0.3s;
 }
 
-/* Xtra Small devices (normal phones) */
+/* Small devices (portrait tablets and large phones) */
 @media only screen and (min-width: 320px) {
   .navbar {
     --delta--val: 1rem;
@@ -67,7 +67,7 @@
   }
 }
 
-/* Small devices (portrait tablets and large phones) */
+/* Medium devices (landscape tablets) */
 @media only screen and (min-width: 576px) {
   .navbar__nav {
     display: flex;

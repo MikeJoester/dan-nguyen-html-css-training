@@ -9,29 +9,8 @@
   line-height: 1.5rem;
 }
 
-/*------------------------------------*\
-  #Containers
-\*------------------------------------*/
-
-.container {
-  display: flex;
-  width: 100%;
-  flex-direction: column;
-  align-items: center;
-  margin: 0 auto 0 auto;
-}
-
 /* Small devices (portrait tablets and large phones) */
 @media only screen and (min-width: 320px) {
-  .container,
-  .container--features {
-    max-width: 290px;
-  }
-
-  .container--features {
-    overflow: hidden;
-  }
-
   .text--sm,
   ::placeholder {
     font-size: 0.6875rem;
@@ -59,43 +38,16 @@
   }
 }
 
-/* Small devices (portrait tablets and large phones) */
+/* Medium devices (landscape tablets) */
 @media only screen and (min-width: 576px) {
-  .container {
-    max-width: calc(100vw - 2rem);
-  }
-
-  .container--features {
-    max-width: 100%;
-    padding-left: 1.5rem;
-    overflow: hidden;
-  }
-
   .heading--2xl {
     font-size: 2rem;
     line-height: 3rem;
   }
 }
 
-/* Medium devices (landscape tablets) */
-@media only screen and (min-width: 768px) {
-  .container {
-    max-width: calc(100vw - 3rem);
-  }
-}
-
 /* Large devices (laptops/desktops) */
 @media only screen and (min-width: 1200px) {
-  .container,
-  .container--features {
-    max-width: 1140px;
-  }
-
-  .container--features {
-    padding: 0;
-    overflow: visible;
-  }
-
   .text--sm {
     font-size: 1rem;
     line-height: 1.5rem;

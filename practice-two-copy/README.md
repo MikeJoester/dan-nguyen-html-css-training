@@ -1,4 +1,4 @@
-# intern-training
+# Practice-Two
 
 ## OVERVIEW
 This document provides an estimation for the HTML/CSS second practice plan:
@@ -9,15 +9,15 @@ This document provides an estimation for the HTML/CSS second practice plan:
 ## TARGETS
 - Apply knowledge to responsive practice one design
 - Used media queries for popular screen size
-- Apply CSS guidelines
 - Apply Flexbox layout
+- Apply Grid system for the responsive design
 - Continue improve about BEM to this practice
 
 
 
 ## Information
 - Technology: HTML5/CSS3
-- Timeline: 5 days
+- Timeline: 12 days
 - Time size: 1 developer
 - Editor: Visual Studio Code
 
