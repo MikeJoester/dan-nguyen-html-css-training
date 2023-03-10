@@ -112,7 +112,7 @@
 
   .contact__list--hidden {
     display: flex;
-    row-gap: 1rem;
+    row-gap: 1.45rem;
   }
 
   .contact__list--visible {
@@ -125,24 +125,40 @@
 
   .social__icon {
     width: auto;
-    height: 1rem;
+    height: 1.45rem;
   }
 
   .contacts {
     flex-direction: column-reverse;
     gap: 21px;
-    align-items: center;
     text-align: center;
+    align-items: center;
   }
 
   .contact__list {
     flex-wrap: wrap;
     justify-content: center;
   }
+
+  .contact--subscribe {
+    max-width: 20rem;
+  }
+
+  .subscribe__form {
+    gap: 0.5rem;
+  }
 }
 
-/* Small devices (portrait tablets and large phones) */
+/* Medium devices (landscape tablets) */
 @media only screen and (min-width: 576px) {
+  .footer {
+    padding: 2.625rem 0px 2.625rem 0px;
+  }
+
+  .footer__main {
+    gap: 1rem;
+  }
+
   .contact__list {
     display: flex;
     flex-wrap: nowrap;
@@ -162,16 +178,9 @@
     flex-direction: row;
     text-align: left;
   }
-}
 
-/* Medium devices (landscape tablets) */
-@media only screen and (min-width: 768px) {
-  .footer {
-    padding: 2.625rem 0px 2.625rem 0px;
-  }
-
-  .footer__main {
-    gap: 1rem;
+  .contact--subscribe {
+    max-width: 100%;
   }
 }
 

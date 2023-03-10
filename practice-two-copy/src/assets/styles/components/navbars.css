@@ -3,13 +3,13 @@
 \*------------------------------------*/
 
 .navbar {
-  width: calc(100vw - var(--delta--val));
+  width: 100%;
   text-transform: uppercase;
   justify-content: space-between;
   align-items: center;
 }
 
-.logo {
+.navbar__logo {
   color: var(--secondary-color);
   font-weight: var(--font-weight-mediumbold);
 }
@@ -17,6 +17,7 @@
 .nav__item {
   color: var(--primary-color);
   font-weight: var(--font-weight-mediumbold);
+  text-align: center;
 }
 
 .nav__link {
@@ -29,17 +30,20 @@
 }
 
 .sub-menu {
-  visibility: hidden;
-  padding: 1.25rem 0px 1.25rem 0px;
   width: 100%;
-  text-transform: uppercase;
-  opacity: 0;
+  visibility: hidden;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  gap: 1rem;
   align-items: center;
   justify-content: center;
+  gap: 1rem;
+
+  padding: 1.25rem 0px 1.25rem 0px;
+
+  opacity: 0;
+
+  text-transform: uppercase;
   transform: translateY(-2em);
   transition: all 0.3s ease-in-out 0s, visibility 0s linear 0.3s,
     z-index 0s linear 0.01s;
@@ -52,14 +56,14 @@
   transition-delay: 0s, 0s, 0.3s;
 }
 
-/* Xtra Small devices (normal phones) */
+/* Small devices (portrait tablets and large phones) */
 @media only screen and (min-width: 320px) {
-  .navbar {
-    --delta--val: 1rem;
-  }
-
   .navbar__nav {
     display: none;
+  }
+
+  .navbar__logo {
+    font-size: 1.45rem;
   }
 
   .nav__item--dropdown {
@@ -67,23 +71,15 @@
   }
 }
 
-/* Small devices (portrait tablets and large phones) */
+/* Medium devices (landscape tablets) */
 @media only screen and (min-width: 576px) {
   .navbar__nav {
     display: flex;
     align-items: center;
+    justify-content: space-between;
   }
-
-  .nav__item {
-    margin-left: 35px;
-  }
-
-  .logo {
-    font-size: 1.5rem;
-  }
-
-  .nav__item {
-    margin-left: 2rem;
+  .navbar__logo {
+    font-size: 2.2rem;
   }
 
   .enabled {
@@ -91,28 +87,10 @@
   }
 }
 
-/* Medium devices (landscape tablets) */
-@media only screen and (min-width: 768px) {
-  .navbar {
-    --delta--val: 1.5625rem;
-  }
-}
-
 /* Large devices (laptops/desktops) */
 @media only screen and (min-width: 1200px) {
-  .navbar {
-    --delta--val: 9.375rem;
-  }
-
-  .logo {
+  .navbar__logo {
     font-size: 2.25rem;
   }
 
-  .nav__item {
-    margin-left: 3rem;
-  }
-
-  .nav__item--btn {
-    margin-left: 1.75rem;
-  }
 }

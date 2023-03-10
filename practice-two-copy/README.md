@@ -18,7 +18,7 @@ This document provides an estimation for the HTML/CSS second practice plan:
 ## Information
 - Technology: HTML5/CSS3
 - Timeline: 12 days
-- Time size: 1 developer
+- Team size: 1 developer
 - Editor: Visual Studio Code
 
 
@@ -26,6 +26,15 @@ This document provides an estimation for the HTML/CSS second practice plan:
 - Node: version 16.17.1 or above
 - npm: version 9.4.0 or above
 - Parcel: version 2.8.3
+
+
+## Supported Browsers
+- Google Chrome: version 108 or above
+- Opera Browser: version 72 or above
+- Microsoft Edge: version 109 or above
+
+## Supported Device Screens:
+- Popular screen sizes (1200px, 768px, 320px)
 
 
 ## Getting started

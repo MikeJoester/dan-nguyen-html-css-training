@@ -12,27 +12,29 @@
 <body>
   <!-- Header Section -->
   <header class="header">
-    <nav class="navbar">
-      <a class="logo" href="javascript:void(0)">hofmann</a>
+    <div class="container">
+      <nav class="navbar">
+        <a class="navbar__logo col-2 col-md-3" href="javascript:void(0)">hofmann</a>
 
-      <ul class="navbar__nav">
-        <li class="nav__item">
-          <a href="javascript:void(0)" class="heading--md nav__link">mission</a>
-        </li>
-        <li class="nav__item">
-          <a href="javascript:void(0)" class="heading--md nav__link">services</a>
-        </li>
-        <li class="nav__item">
-          <a href="javascript:void(0)" class="heading--md nav__link">about</a>
-        </li>
-        <li class="nav__item">
-          <button type="button" class="btn">take a tour</button>
-        </li>
-      </ul>
-      <button type="button" class="btn btn-hidden" id="nav" onclick="setNav()" title="burger">
-        <img src="./assets/images/hamburger-menu.svg" alt="Burger" />
-      </button>
-    </nav>
+        <ul class="navbar__nav col-6 col-md-7">
+          <li class="nav__item col-2 col-md-3">
+            <a href="javascript:void(0)" class="heading--md nav__link">mission</a>
+          </li>
+          <li class="nav__item col-2 col-md-3">
+            <a href="javascript:void(0)" class="heading--md nav__link">services</a>
+          </li>
+          <li class="nav__item col-2 col-md-3">
+            <a href="javascript:void(0)" class="heading--md nav__link">about</a>
+          </li>
+          <li class="nav__item nav__item--button col-4 col-md-4">
+            <button type="button" class="btn col-12">take a tour</button>
+          </li>
+        </ul>
+        <button type="button" class="btn btn-hidden" id="nav" onclick="setNav()" title="burger">
+          <img src="./assets/images/hamburger-menu.svg" alt="Burger" />
+        </button>
+      </nav>
+    </div>
     <ul class="sub-menu" id="nav-dropdown">
       <li class="nav__item nav__item--dropdown">
         <a href="javascript:void(0)" class="heading--md nav__link">mission</a>
@@ -44,7 +46,7 @@
         <a href="javascript:void(0)" class="heading--md nav__link">about</a>
       </li>
       <li class="nav__item nav__item--dropdown">
-        <button type="button" class="btn">take a tour</button>
+        <button type="button" class="btn btn-dropdown">take a tour</button>
       </li>
     </ul>
     <div class="container">
@@ -58,7 +60,9 @@
           face, and She is the host to your journey; without Her we could not
           find the unfolding adventures that attract and feed our souls.
         </p>
-        <button type="button" class="btn btn-secondary">explore</button>
+        <div class="header__footer">
+          <button type="button" class="btn btn-secondary col-5 col-md-5">explore</button>
+        </div>
       </section>
     </div>
   </header>
@@ -70,7 +74,7 @@
       <div class="container">
         <h2 class="heading heading--2xl">Subscribing Plans</h2>
         <div class="cards cards--options">
-          <div class="card col-3">
+          <div class="card col-3 col-md-3">
             <div class="card__header">
               <img src="./assets/images/card_free.png" alt="Freemium" class="card__img" />
               <div class="price__details">
@@ -87,10 +91,12 @@
               <p>50 Images per Day</p>
               <br />
             </article>
-            <button type="button" class="btn btn-clear">get started</button>
+            <div class="card__footer">
+              <button type="button" class="btn btn-clear col-9 col-md-9">get started</button>
+            </div>
           </div>
 
-          <div class="card col-3">
+          <div class="card col-3 col-md-3">
             <div class="card__header">
               <img src="./assets/images/card_startup.png" alt="Startup" class="card__img" />
               <div class="price__details">
@@ -107,10 +113,12 @@
               <p>100 Images per Day</p>
               <br />
             </article>
-            <button type="button" class="btn btn-clear">get started</button>
+            <div class="card__footer">
+              <button type="button" class="btn btn-clear col-9 col-md-9">get started</button>
+            </div>
           </div>
 
-          <div class="card card--recommend col-3">
+          <div class="card card--recommend col-3 col-md-3">
             <div class="card__header">
               <img src="./assets/images/card_business.png" alt="Business" class="card__img" />
               <div class="price__details">
@@ -127,12 +135,13 @@
               <p>300 Images per Day</p>
               <p>Project Reviews</p>
             </article>
-            <button type="button" class="btn btn-secondary btn-secondary--responsive">
-              get started
-            </button>
+            <div class="card__footer">
+              <button type="button" class="btn btn-secondary btn-secondary--responsive col-9 col-md-9">get
+                started</button>
+            </div>
           </div>
 
-          <div class="card col-3">
+          <div class="card col-3 col-md-3">
             <div class="card__header">
               <img src="./assets/images/card_enterprise.png" alt="Enterprise" class="card__img" />
               <div class="price__details">
@@ -149,7 +158,9 @@
               <p>Unlimited Images per Day</p>
               <p>Project Reviews</p>
             </article>
-            <button type="button" class="btn btn-clear">get started</button>
+            <div class="card__footer">
+              <button type="button" class="btn btn-clear col-9 col-md-9">get started</button>
+            </div>
           </div>
         </div>
       </div>
@@ -158,7 +169,7 @@
 
     <!-- Features -->
     <section class="features">
-      <div class="container--features">
+      <div class="container">
         <div class="features__header">
           <h2 class="heading heading--2xl">features</h2>
           <p class="heading heading--md heading--uc">
@@ -167,7 +178,7 @@
         </div>
 
         <div class="features__body">
-          <div class="features__list col-4">
+          <div class="features__list col-4 col-md-5">
             <div class="features__item">
               <img src="./assets/images/devices.svg" alt="Devices" />
               <div class="item__desc">
@@ -200,7 +211,7 @@
             </div>
           </div>
 
-          <div class="img-container col-8">
+          <div class="img-container col-8 col-md-7">
             <img src="./assets/images/mac.png" alt="Works on Mac!" class="features__img" />
           </div>
         </div>
@@ -219,7 +230,7 @@
         </div>
 
         <ul class="cards cards--statistics">
-          <li class="card card--statistics col-3">
+          <li class="card card--statistics col-3 col-md-3">
             <div class="progress__bar">
               <div class="progress__value">
                 <p class="progress__value--text">74</p>
@@ -234,7 +245,7 @@
               </p>
             </div>
           </li>
-          <li class="card card--statistics col-3">
+          <li class="card card--statistics col-3 col-md-3">
             <div class="progress__bar progress__bar--one-third">
               <div class="progress__value">
                 <p class="progress__value--text">39</p>
@@ -249,7 +260,7 @@
               </p>
             </div>
           </li>
-          <li class="card card--statistics col-3">
+          <li class="card card--statistics col-3 col-md-3">
             <div class="progress__bar progress__bar--custom">
               <div class="progress__value">
                 <p class="progress__value--text">81</p>
@@ -280,7 +291,7 @@
           <input type="password" class="register__input" placeholder="Password" autocomplete="on" />
           <input type="password" class="register__input" placeholder="Confirm Password" autocomplete="on" />
           <a class="login__link text--sm" href="javascript:void(0)">Already Have an account?</a>
-          <button type="submit" class="btn btn-secondary">sign up</button>
+          <button type="submit" class="btn btn-secondary col-11 col-md-9">sign up</button>
         </form>
       </div>
     </section>
@@ -374,15 +385,15 @@
             </li>
           </ul>
 
-          <ul class="contact contact--subscribe col-4">
+          <ul class="contact contact--subscribe col-4 col-md-4">
             <li class="text--sm">
               Hoffman UI Kit was made to help you quickly create beautiful
               layouts of responsive websites.
             </li>
             <li>
               <form action="" class="subscribe__form">
-                <input placeholder="Enter Email" class="register__input register__input--subscribe col-6" />
-                <button type="submit" class="col-5 btn btn-dark">subscribe</button>
+                <input placeholder="Enter Email" class="register__input register__input--subscribe col-7 col-md-6" />
+                <button type="submit" class="btn btn-dark col-5 col-md-6">subscribe</button>
               </form>
             </li>
           </ul>
@@ -392,7 +403,7 @@
   </footer>
   <!-- Footer End -->
 
-  <script src="./index.js"></script>
+  <script src="./assets/scripts/index.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/html-inspector/0.8.2/html-inspector.js"></script>
   <script>
     HTMLInspector.inspect();

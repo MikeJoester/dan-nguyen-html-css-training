@@ -22,7 +22,7 @@
 }
 
 html {
-  font-size: var(--font-size-sm);
+  font-size: var(--font-size-xs);
 }
 
 body {
@@ -39,4 +39,11 @@ p {
 a {
   text-decoration: none;
   color: var(--primary-color);
+}
+
+/* Large devices (laptops/desktops) */
+@media only screen and (min-width: 1200px) {
+  html {
+    font-size: var(--font-size-sm);
+  }
 }
