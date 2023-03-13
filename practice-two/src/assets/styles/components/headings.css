@@ -13,12 +13,12 @@
 @media only screen and (min-width: 320px) {
   .text--sm,
   ::placeholder {
-    font-size: 0.6875rem;
-    line-height: 1rem;
+    font-size: 1rem;
+    line-height: 1.45rem;
   }
 
   .heading--4xl {
-    font-size: 2.25rem;
+    font-size: 3.27rem;
   }
 
   .heading--uc {
@@ -28,11 +28,16 @@
   .heading,
   .heading--md,
   .heading--sm {
-    font-size: 0.75rem;
+    font-size: 1.1rem;
+  }
+
+  .heading--2xl {
+    font-size: 2rem;
+    line-height: 2.2rem;
   }
 
   .heading--light {
-    padding-bottom: 36px;
+    padding-bottom: 3.27rem;
     color: var(--primary-color);
     line-height: var(--line-height-xx-lg);
   }
@@ -41,8 +46,8 @@
 /* Medium devices (landscape tablets) */
 @media only screen and (min-width: 576px) {
   .heading--2xl {
-    font-size: 2rem;
-    line-height: 3rem;
+    font-size: 3rem;
+    line-height: 3.6rem;
   }
 }
 

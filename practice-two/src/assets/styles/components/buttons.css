@@ -27,8 +27,7 @@
 @media only screen and (min-width: 320px) {
   .btn {
     font-size: 0.6875rem;
-    width: 8.75rem;
-    height: 2rem;
+    padding: 0.81rem 0 0.81rem 0;
   }
 
   .btn-clear {
@@ -48,12 +47,6 @@
 
   .btn-secondary:active {
     background-color: var(--border-color);
-  }
-
-  .btn-clear,
-  .btn-secondary--responsive {
-    width: 7.5rem;
-    height: 2rem;
   }
 
   .btn-secondary--responsive {
@@ -81,14 +74,18 @@
     border-radius: 4px;
     background-color: var(--cl-darksilver) !important;
   }
+
+  .btn-dropdown {
+    width: 10rem;
+    height: 3rem;
+  }
 }
 
-/* Small devices (portrait tablets and large phones) */
+/* Medium devices (landscape tablets) */
 @media only screen and (min-width: 576px) {
   .btn {
     font-size: 0.6875rem;
-    width: 9.25rem;
-    height: 2.5rem;
+    padding: 1rem 0;
     text-align: center;
   }
 
@@ -96,12 +93,6 @@
     border: 2px solid var(--cl-darksilver);
     color: var(--cl-darksilver);
     margin: 0;
-  }
-
-  .btn-clear,
-  .btn-secondary--responsive {
-    width: 7.5rem;
-    height: 2rem;
   }
 
   .enabled {
@@ -112,13 +103,6 @@
     display: none;
   }
 
-  .btn-dark {
-    border-radius: 4px;
-  }
-}
-
-/* Medium devices (landscape tablets) */
-@media only screen and (min-width: 768px) {
   .btn-dark {
     border-color: transparent;
     border-radius: 4px;
@@ -134,7 +118,7 @@
 @media only screen and (min-width: 1200px) {
   .btn {
     font: 1rem / 20px var(--font-primary);
-    width: 11.25rem;
+    padding: 0.875rem 0;
     height: 3rem;
   }
 

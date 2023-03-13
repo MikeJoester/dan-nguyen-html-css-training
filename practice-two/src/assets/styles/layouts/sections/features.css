@@ -69,26 +69,16 @@
   .features__body {
     flex-direction: row;
     gap: 0px;
-    overflow: hidden;
   }
 
   .features__img {
     width: unset;
   }
-
-  .img-container {
-    position: static;
-  }
-}
-
-/* Medium devices (landscape tablets) */
-@media only screen and (min-width: 768px) {
-  .features__body {
-    overflow: visible;
-  }
 }
 
 /* Large devices (laptops/desktops) */
 @media only screen and (min-width: 1200px) {
-
+  .features__body {
+    overflow: visible;
+  }
 }

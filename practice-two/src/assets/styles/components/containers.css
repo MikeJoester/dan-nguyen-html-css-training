@@ -7,43 +7,25 @@
   width: 100%;
   flex-direction: column;
   align-items: center;
-  margin: 0 auto 0 auto;
 }
 
 /* Small devices (portrait tablets and large phones) */
 @media only screen and (min-width: 320px) {
-  .container,
-  .container--features {
-    max-width: 290px;
-  }
-
-  .container--features {
-    overflow: hidden;
+  .container {
+    max-width: calc(100% - 3rem);
   }
 }
 
 /* Medium devices (landscape tablets) */
 @media only screen and (min-width: 576px) {
   .container {
-    max-width: calc(100vw - 3rem);
-  }
-
-  .container--features {
-    max-width: 100%;
-    padding-left: 1.5rem;
-    overflow: hidden;
+    max-width: 94%;
   }
 }
 
 /* Large devices (laptops/desktops) */
 @media only screen and (min-width: 1200px) {
-  .container,
-  .container--features {
+  .container {
     max-width: 1140px;
-  }
-
-  .container--features {
-    padding: 0;
-    overflow: visible;
   }
 }
