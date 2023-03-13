@@ -26,7 +26,7 @@
 /* Small devices (portrait tablets and large phones) */
 @media only screen and (min-width: 320px) {
   .btn {
-    font-size: 0.6875rem;
+    font-size: 1rem;
     padding: 0.81rem 0 0.81rem 0;
   }
 
@@ -72,7 +72,7 @@
 
   .btn-dark {
     border-radius: 4px;
-    background-color: var(--cl-darksilver) !important;
+    background-color: var(--cl-darksilver);
   }
 
   .btn-dropdown {
@@ -84,7 +84,7 @@
 /* Medium devices (landscape tablets) */
 @media only screen and (min-width: 576px) {
   .btn {
-    font-size: 0.6875rem;
+    font-size: 1rem;
     padding: 1rem 0;
     text-align: center;
   }

@@ -34,7 +34,9 @@ This document provides an estimation for the HTML/CSS second practice plan:
 - Microsoft Edge: version 109 or above
 
 ## Supported Device Screens:
-- Popular screen sizes (1200px, 768px, 320px)
+- 320px or above: Small devices (portrait tablets and large phones)
+- 576px or above: Medium devices (landscape tablets)
+- 1200px or above: Large devices (laptops/desktops)
 
 
 ## Getting started
