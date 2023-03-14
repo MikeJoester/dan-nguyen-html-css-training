@@ -3,9 +3,6 @@
 \*------------------------------------*/
 
 .footer {
-  display: flex;
-  justify-content: center;
-  height: auto;
   background-color: var(--light-color);
 }
 
@@ -58,7 +55,6 @@
 
 .contacts {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
   border-top: 1px solid var(--border-color);
 }
@@ -73,15 +69,13 @@
   opacity: 0.5;
 }
 
-.contact--subscribe {
-  justify-content: space-between;
+.contact__details {
+  display: flex;
+  flex-direction: column;
 }
 
 .subscribe__form {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: stretch;
 }
 
 /* Small devices (portrait tablets and large phones) */
@@ -94,8 +88,8 @@
     gap: 1.25rem;
   }
 
-  .contact--subscribe {
-    gap: 1rem;
+  .contact {
+    gap: 1.45rem;
   }
 
   .contact--desktop {
@@ -139,6 +133,7 @@
 
   .contact--subscribe {
     max-width: 20rem;
+    gap: 1rem;
   }
 
   .subscribe__form {
@@ -195,6 +190,10 @@
   .social__icon {
     width: 1.5rem;
     height: 1.5rem;
+  }
+
+  .contact {
+    gap: 1.5rem;
   }
 
   .contact--mobile {

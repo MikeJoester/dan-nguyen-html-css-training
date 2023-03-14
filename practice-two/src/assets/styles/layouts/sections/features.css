@@ -4,17 +4,11 @@
 
 .features {
   padding: 5rem 0px 3.75rem 0px;
-  height: auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  overflow: hidden;
 }
 
 .features__header {
   display: flex;
   flex-direction: column;
-  align-items: center;
   gap: 1.25rem;
 }
 
@@ -33,16 +27,20 @@
 
 .features__item {
   display: flex;
-  flex-direction: row;
   gap: 1rem;
+}
+
+.img-container {
+  overflow: hidden;
 }
 
 .item__desc {
   color: var(--cl-darksilver);
+  text-align: left;
 }
 
 .item__title {
-  line-height: 30px;
+  line-height: var(--line-height-lg);
 }
 
 .item__text {
@@ -67,7 +65,7 @@
 @media only screen and (min-width: 576px) {
   .features__body {
     flex-direction: row;
-    gap: 0px;
+    gap: 0;
   }
 
   .features__img {
@@ -77,7 +75,7 @@
 
 /* Large devices (laptops/desktops) */
 @media only screen and (min-width: 1200px) {
-  .features__body {
-    overflow: visible;
+  .features__img {
+    width: 100%;
   }
 }

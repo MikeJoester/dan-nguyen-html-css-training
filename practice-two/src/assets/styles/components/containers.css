@@ -7,8 +7,9 @@
   width: 100%;
   flex-direction: column;
   align-items: center;
-  align-content: center;
-  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  margin: 0 auto;
 }
 
 /* Small devices (portrait tablets and large phones) */
